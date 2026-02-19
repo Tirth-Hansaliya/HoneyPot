@@ -1,0 +1,2510 @@
+{
+  "generated_at": "2026-02-05T12:58:52.490481",
+  "total_entries": 260,
+  "entries": [
+    {
+      "line_number": 1,
+      "raw": "[12:05:19 PM] [SYSTEM] Connected to Network Monitor System",
+      "timestamp": "12:05:19 PM",
+      "service": "SYSTEM",
+      "message": "Connected to Network Monitor System",
+      "type": "system"
+    },
+    {
+      "line_number": 2,
+      "raw": "[HTTP] [2026-02-05 12:05:30] Started on port 8080",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:05:30",
+      "message": "Started on port 8080",
+      "type": "honeypot",
+      "port": 8080,
+      "event": "started"
+    },
+    {
+      "line_number": 3,
+      "raw": "[12:05:30 PM] [SYSTEM] Started HTTP on port 8080",
+      "timestamp": "12:05:30 PM",
+      "service": "SYSTEM",
+      "message": "Started HTTP on port 8080",
+      "type": "system"
+    },
+    {
+      "line_number": 4,
+      "raw": "[12:05:47 PM] [SYSTEM] Uploaded HTML file: index.html",
+      "timestamp": "12:05:47 PM",
+      "service": "SYSTEM",
+      "message": "Uploaded HTML file: index.html",
+      "type": "system"
+    },
+    {
+      "line_number": 5,
+      "raw": "[12:06:41 PM] [SYSTEM] Initiating Start All sequence...",
+      "timestamp": "12:06:41 PM",
+      "service": "SYSTEM",
+      "message": "Initiating Start All sequence...",
+      "type": "system"
+    },
+    {
+      "line_number": 6,
+      "raw": "[12:06:41 PM] [SYSTEM] Started HTTP on port undefined",
+      "timestamp": "12:06:41 PM",
+      "service": "SYSTEM",
+      "message": "Started HTTP on port undefined",
+      "type": "system"
+    },
+    {
+      "line_number": 7,
+      "raw": "[FTP] [2026-02-05 12:06:42] Started on port 2121",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:06:42",
+      "message": "Started on port 2121",
+      "type": "honeypot",
+      "port": 2121,
+      "event": "started"
+    },
+    {
+      "line_number": 8,
+      "raw": "[12:06:42 PM] [SYSTEM] Started FTP on port 2121",
+      "timestamp": "12:06:42 PM",
+      "service": "SYSTEM",
+      "message": "Started FTP on port 2121",
+      "type": "system"
+    },
+    {
+      "line_number": 9,
+      "raw": "[SSH] [2026-02-05 12:06:42] Started on port 2222",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:06:42",
+      "message": "Started on port 2222",
+      "type": "honeypot",
+      "port": 2222,
+      "event": "started"
+    },
+    {
+      "line_number": 10,
+      "raw": "[12:06:42 PM] [SYSTEM] Started SSH on port 2222",
+      "timestamp": "12:06:42 PM",
+      "service": "SYSTEM",
+      "message": "Started SSH on port 2222",
+      "type": "system"
+    },
+    {
+      "line_number": 11,
+      "raw": "[12:06:45 PM] [SYSTEM] Initiating Stop All sequence...",
+      "timestamp": "12:06:45 PM",
+      "service": "SYSTEM",
+      "message": "Initiating Stop All sequence...",
+      "type": "system"
+    },
+    {
+      "line_number": 12,
+      "raw": "[HTTP] [2026-02-05 12:06:45] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:06:45",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 13,
+      "raw": "[HTTP] [2026-02-05 12:06:45] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:06:45",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 14,
+      "raw": "[12:06:45 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:06:45 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 15,
+      "raw": "[FTP] [2026-02-05 12:06:45] Stopped",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:06:45",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 16,
+      "raw": "[FTP] [2026-02-05 12:06:45] Stopped",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:06:45",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 17,
+      "raw": "[12:06:45 PM] [SYSTEM] Stopped FTP service",
+      "timestamp": "12:06:45 PM",
+      "service": "SYSTEM",
+      "message": "Stopped FTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 18,
+      "raw": "[SSH] [2026-02-05 12:06:46] Stopped",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:06:46",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 19,
+      "raw": "[SSH] [2026-02-05 12:06:46] Stopped",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:06:46",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 20,
+      "raw": "[12:06:46 PM] [SYSTEM] Stopped SSH service",
+      "timestamp": "12:06:46 PM",
+      "service": "SYSTEM",
+      "message": "Stopped SSH service",
+      "type": "system"
+    },
+    {
+      "line_number": 21,
+      "raw": "[12:06:51 PM] [SYSTEM] Initiating Start All sequence...",
+      "timestamp": "12:06:51 PM",
+      "service": "SYSTEM",
+      "message": "Initiating Start All sequence...",
+      "type": "system"
+    },
+    {
+      "line_number": 22,
+      "raw": "[HTTP] [2026-02-05 12:06:53] Started on port 80",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:06:53",
+      "message": "Started on port 80",
+      "type": "honeypot",
+      "port": 80,
+      "event": "started"
+    },
+    {
+      "line_number": 23,
+      "raw": "[12:06:53 PM] [SYSTEM] Started HTTP on port 80",
+      "timestamp": "12:06:53 PM",
+      "service": "SYSTEM",
+      "message": "Started HTTP on port 80",
+      "type": "system"
+    },
+    {
+      "line_number": 24,
+      "raw": "[FTP] [2026-02-05 12:06:53] Started on port 2121",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:06:53",
+      "message": "Started on port 2121",
+      "type": "honeypot",
+      "port": 2121,
+      "event": "started"
+    },
+    {
+      "line_number": 25,
+      "raw": "[12:06:53 PM] [SYSTEM] Started FTP on port 2121",
+      "timestamp": "12:06:53 PM",
+      "service": "SYSTEM",
+      "message": "Started FTP on port 2121",
+      "type": "system"
+    },
+    {
+      "line_number": 26,
+      "raw": "[SSH] [2026-02-05 12:06:54] Started on port 2222",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:06:54",
+      "message": "Started on port 2222",
+      "type": "honeypot",
+      "port": 2222,
+      "event": "started"
+    },
+    {
+      "line_number": 27,
+      "raw": "[12:06:54 PM] [SYSTEM] Started SSH on port 2222",
+      "timestamp": "12:06:54 PM",
+      "service": "SYSTEM",
+      "message": "Started SSH on port 2222",
+      "type": "system"
+    },
+    {
+      "line_number": 28,
+      "raw": "[HTTP] [2026-02-05 12:15:15] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:15:15",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 29,
+      "raw": "[HTTP] [2026-02-05 12:15:15] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:15:15",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 30,
+      "raw": "[12:15:15 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:15:15 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 31,
+      "raw": "[12:15:16 PM] [SYSTEM] Initiating Stop All sequence...",
+      "timestamp": "12:15:16 PM",
+      "service": "SYSTEM",
+      "message": "Initiating Stop All sequence...",
+      "type": "system"
+    },
+    {
+      "line_number": 32,
+      "raw": "[12:15:16 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:15:16 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 33,
+      "raw": "[FTP] [2026-02-05 12:15:17] Stopped",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:15:17",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 34,
+      "raw": "[FTP] [2026-02-05 12:15:17] Stopped",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:15:17",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 35,
+      "raw": "[12:15:17 PM] [SYSTEM] Stopped FTP service",
+      "timestamp": "12:15:17 PM",
+      "service": "SYSTEM",
+      "message": "Stopped FTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 36,
+      "raw": "[SSH] [2026-02-05 12:15:17] Stopped",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:15:17",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 37,
+      "raw": "[SSH] [2026-02-05 12:15:17] Stopped",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:15:17",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 38,
+      "raw": "[12:15:17 PM] [SYSTEM] Stopped SSH service",
+      "timestamp": "12:15:17 PM",
+      "service": "SYSTEM",
+      "message": "Stopped SSH service",
+      "type": "system"
+    },
+    {
+      "line_number": 39,
+      "raw": "[12:15:17 PM] [SYSTEM] Initiating Stop All sequence...",
+      "timestamp": "12:15:17 PM",
+      "service": "SYSTEM",
+      "message": "Initiating Stop All sequence...",
+      "type": "system"
+    },
+    {
+      "line_number": 40,
+      "raw": "[12:15:17 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:15:17 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 41,
+      "raw": "[12:15:18 PM] [SYSTEM] Stopped FTP service",
+      "timestamp": "12:15:18 PM",
+      "service": "SYSTEM",
+      "message": "Stopped FTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 42,
+      "raw": "[12:15:18 PM] [SYSTEM] Stopped SSH service",
+      "timestamp": "12:15:18 PM",
+      "service": "SYSTEM",
+      "message": "Stopped SSH service",
+      "type": "system"
+    },
+    {
+      "line_number": 43,
+      "raw": "[12:17:18 PM] [SYSTEM] Connected to Network Monitor System",
+      "timestamp": "12:17:18 PM",
+      "service": "SYSTEM",
+      "message": "Connected to Network Monitor System",
+      "type": "system"
+    },
+    {
+      "line_number": 44,
+      "raw": "[12:17:31 PM] [SYSTEM] Uploaded HTML file: index.html",
+      "timestamp": "12:17:31 PM",
+      "service": "SYSTEM",
+      "message": "Uploaded HTML file: index.html",
+      "type": "system"
+    },
+    {
+      "line_number": 45,
+      "raw": "[HTTP] [2026-02-05 12:17:38] Started on port 80",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:17:38",
+      "message": "Started on port 80",
+      "type": "honeypot",
+      "port": 80,
+      "event": "started"
+    },
+    {
+      "line_number": 46,
+      "raw": "[12:17:38 PM] [SYSTEM] Started HTTP on port 80",
+      "timestamp": "12:17:38 PM",
+      "service": "SYSTEM",
+      "message": "Started HTTP on port 80",
+      "type": "system"
+    },
+    {
+      "line_number": 47,
+      "raw": "[12:24:59 PM] [SYSTEM] Connected to Network Monitor System",
+      "timestamp": "12:24:59 PM",
+      "service": "SYSTEM",
+      "message": "Connected to Network Monitor System",
+      "type": "system"
+    },
+    {
+      "line_number": 48,
+      "raw": "[12:26:13 PM] [SYSTEM] Initiating Stop All sequence...",
+      "timestamp": "12:26:13 PM",
+      "service": "SYSTEM",
+      "message": "Initiating Stop All sequence...",
+      "type": "system"
+    },
+    {
+      "line_number": 49,
+      "raw": "[12:26:13 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:26:13 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 50,
+      "raw": "[12:26:14 PM] [SYSTEM] Stopped FTP service",
+      "timestamp": "12:26:14 PM",
+      "service": "SYSTEM",
+      "message": "Stopped FTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 51,
+      "raw": "[12:26:14 PM] [SYSTEM] Stopped SSH service",
+      "timestamp": "12:26:14 PM",
+      "service": "SYSTEM",
+      "message": "Stopped SSH service",
+      "type": "system"
+    },
+    {
+      "line_number": 52,
+      "raw": "[12:26:16 PM] [SYSTEM] Initiating Stop All sequence...",
+      "timestamp": "12:26:16 PM",
+      "service": "SYSTEM",
+      "message": "Initiating Stop All sequence...",
+      "type": "system"
+    },
+    {
+      "line_number": 53,
+      "raw": "[12:26:16 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:26:16 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 54,
+      "raw": "[12:26:16 PM] [SYSTEM] Stopped FTP service",
+      "timestamp": "12:26:16 PM",
+      "service": "SYSTEM",
+      "message": "Stopped FTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 55,
+      "raw": "[12:26:17 PM] [SYSTEM] Stopped SSH service",
+      "timestamp": "12:26:17 PM",
+      "service": "SYSTEM",
+      "message": "Stopped SSH service",
+      "type": "system"
+    },
+    {
+      "line_number": 56,
+      "raw": "[HTTP] [2026-02-05 12:26:20] Started on port 8080",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:20",
+      "message": "Started on port 8080",
+      "type": "honeypot",
+      "port": 8080,
+      "event": "started"
+    },
+    {
+      "line_number": 57,
+      "raw": "[12:26:20 PM] [SYSTEM] Started HTTP on port 8080",
+      "timestamp": "12:26:20 PM",
+      "service": "SYSTEM",
+      "message": "Started HTTP on port 8080",
+      "type": "system"
+    },
+    {
+      "line_number": 58,
+      "raw": "[HTTP] [2026-02-05 12:26:45] Connection from 172.16.109.219:55500",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:45",
+      "message": "Connection from 172.16.109.219:55500",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 55500,
+      "event": "connection"
+    },
+    {
+      "line_number": 59,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 61,
+      "raw": "[12:26:51 PM] [SYSTEM] Uploaded HTML file: index.html",
+      "timestamp": "12:26:51 PM",
+      "service": "SYSTEM",
+      "message": "Uploaded HTML file: index.html",
+      "type": "system"
+    },
+    {
+      "line_number": 62,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Connection from 172.16.109.219:37779",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Connection from 172.16.109.219:37779",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 37779,
+      "event": "connection"
+    },
+    {
+      "line_number": 63,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Connection from 172.16.109.219:37780",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Connection from 172.16.109.219:37780",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 37780,
+      "event": "connection"
+    },
+    {
+      "line_number": 64,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Connection from 172.16.109.219:37783",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Connection from 172.16.109.219:37783",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 37783,
+      "event": "connection"
+    },
+    {
+      "line_number": 65,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: GET /nmaplowercheck1770274611 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Request from 172.16.109.219: GET /nmaplowercheck1770274611 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /nmaplowercheck1770274611 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 67,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 69,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: POST /sdk HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Request from 172.16.109.219: POST /sdk HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "POST /sdk HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 71,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Connection from 172.16.109.219:37785",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Connection from 172.16.109.219:37785",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 37785,
+      "event": "connection"
+    },
+    {
+      "line_number": 72,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: GET /NmapUpperCheck1770274611 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Request from 172.16.109.219: GET /NmapUpperCheck1770274611 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /NmapUpperCheck1770274611 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 74,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Connection from 172.16.109.219:37787",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Connection from 172.16.109.219:37787",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 37787,
+      "event": "connection"
+    },
+    {
+      "line_number": 75,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: GET /Nmap/folder/check1770274611 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Request from 172.16.109.219: GET /Nmap/folder/check1770274611 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /Nmap/folder/check1770274611 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 77,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Connection from 172.16.109.219:37788",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Connection from 172.16.109.219:37788",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 37788,
+      "event": "connection"
+    },
+    {
+      "line_number": 78,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 80,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Connection from 172.16.109.219:37791",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Connection from 172.16.109.219:37791",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 37791,
+      "event": "connection"
+    },
+    {
+      "line_number": 81,
+      "raw": "[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: GET / HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:26:51",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 83,
+      "raw": "[HTTP] [2026-02-05 12:28:35] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:28:35",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 84,
+      "raw": "[HTTP] [2026-02-05 12:28:35] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:28:35",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 85,
+      "raw": "[12:28:36 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:28:36 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 86,
+      "raw": "[12:29:59 PM] [SYSTEM] Connection Lost - System Offline",
+      "timestamp": "12:29:59 PM",
+      "service": "SYSTEM",
+      "message": "Connection Lost - System Offline",
+      "type": "system"
+    },
+    {
+      "line_number": 87,
+      "raw": "[12:30:00 PM] [SYSTEM] Connected to Network Monitor System",
+      "timestamp": "12:30:00 PM",
+      "service": "SYSTEM",
+      "message": "Connected to Network Monitor System",
+      "type": "system"
+    },
+    {
+      "line_number": 88,
+      "raw": "[12:30:05 PM] [SYSTEM] Connection Lost - System Offline",
+      "timestamp": "12:30:05 PM",
+      "service": "SYSTEM",
+      "message": "Connection Lost - System Offline",
+      "type": "system"
+    },
+    {
+      "line_number": 89,
+      "raw": "[12:30:06 PM] [SYSTEM] Connected to Network Monitor System",
+      "timestamp": "12:30:06 PM",
+      "service": "SYSTEM",
+      "message": "Connected to Network Monitor System",
+      "type": "system"
+    },
+    {
+      "line_number": 90,
+      "raw": "[HTTP] [2026-02-05 12:30:29] Started on port 80",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:29",
+      "message": "Started on port 80",
+      "type": "honeypot",
+      "port": 80,
+      "event": "started"
+    },
+    {
+      "line_number": 91,
+      "raw": "[12:30:29 PM] [SYSTEM] Started HTTP on port 80",
+      "timestamp": "12:30:29 PM",
+      "service": "SYSTEM",
+      "message": "Started HTTP on port 80",
+      "type": "system"
+    },
+    {
+      "line_number": 92,
+      "raw": "[FTP] [2026-02-05 12:30:30] Started on port 21",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:30:30",
+      "message": "Started on port 21",
+      "type": "honeypot",
+      "port": 21,
+      "event": "started"
+    },
+    {
+      "line_number": 93,
+      "raw": "[12:30:30 PM] [SYSTEM] Started FTP on port 21",
+      "timestamp": "12:30:30 PM",
+      "service": "SYSTEM",
+      "message": "Started FTP on port 21",
+      "type": "system"
+    },
+    {
+      "line_number": 94,
+      "raw": "[SSH] [2026-02-05 12:30:32] Started on port 22",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:30:32",
+      "message": "Started on port 22",
+      "type": "honeypot",
+      "port": 22,
+      "event": "started"
+    },
+    {
+      "line_number": 95,
+      "raw": "[12:30:32 PM] [SYSTEM] Started SSH on port 22",
+      "timestamp": "12:30:32 PM",
+      "service": "SYSTEM",
+      "message": "Started SSH on port 22",
+      "type": "system"
+    },
+    {
+      "line_number": 96,
+      "raw": "[FTP] [2026-02-05 12:30:38] Connection from 172.16.109.219:29172",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:30:38",
+      "message": "Connection from 172.16.109.219:29172",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 29172,
+      "event": "connection"
+    },
+    {
+      "line_number": 97,
+      "raw": "[HTTP] [2026-02-05 12:30:38] Connection from 172.16.109.219:29174",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:38",
+      "message": "Connection from 172.16.109.219:29174",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 29174,
+      "event": "connection"
+    },
+    {
+      "line_number": 98,
+      "raw": "[SSH] [2026-02-05 12:30:38] Connection from 172.16.109.219:29173",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:30:38",
+      "message": "Connection from 172.16.109.219:29173",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 29173,
+      "event": "connection"
+    },
+    {
+      "line_number": 99,
+      "raw": "[HTTP] [2026-02-05 12:30:44] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:44",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 101,
+      "raw": "[HTTP] [2026-02-05 12:30:44] Connection from 172.16.109.219:29214",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:44",
+      "message": "Connection from 172.16.109.219:29214",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 29214,
+      "event": "connection"
+    },
+    {
+      "line_number": 102,
+      "raw": "[HTTP] [2026-02-05 12:30:44] Connection from 172.16.109.219:29216",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:44",
+      "message": "Connection from 172.16.109.219:29216",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 29216,
+      "event": "connection"
+    },
+    {
+      "line_number": 103,
+      "raw": "[HTTP] [2026-02-05 12:30:44] Connection from 172.16.109.219:29218",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:44",
+      "message": "Connection from 172.16.109.219:29218",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 29218,
+      "event": "connection"
+    },
+    {
+      "line_number": 104,
+      "raw": "[HTTP] [2026-02-05 12:30:44] Request from 172.16.109.219: POST /sdk HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:44",
+      "message": "Request from 172.16.109.219: POST /sdk HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "POST /sdk HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 106,
+      "raw": "[HTTP] [2026-02-05 12:30:44] Request from 172.16.109.219: GET /nmaplowercheck1770274844 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:44",
+      "message": "Request from 172.16.109.219: GET /nmaplowercheck1770274844 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /nmaplowercheck1770274844 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 108,
+      "raw": "[HTTP] [2026-02-05 12:30:44] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:44",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 110,
+      "raw": "[HTTP] [2026-02-05 12:30:44] Connection from 172.16.109.219:29221",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:44",
+      "message": "Connection from 172.16.109.219:29221",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 29221,
+      "event": "connection"
+    },
+    {
+      "line_number": 111,
+      "raw": "[HTTP] [2026-02-05 12:30:44] Request from 172.16.109.219: GET /NmapUpperCheck1770274844 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:44",
+      "message": "Request from 172.16.109.219: GET /NmapUpperCheck1770274844 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /NmapUpperCheck1770274844 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 113,
+      "raw": "[HTTP] [2026-02-05 12:30:44] Connection from 172.16.109.219:29222",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:44",
+      "message": "Connection from 172.16.109.219:29222",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 29222,
+      "event": "connection"
+    },
+    {
+      "line_number": 114,
+      "raw": "[HTTP] [2026-02-05 12:30:44] Request from 172.16.109.219: GET /Nmap/folder/check1770274844 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:44",
+      "message": "Request from 172.16.109.219: GET /Nmap/folder/check1770274844 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /Nmap/folder/check1770274844 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 116,
+      "raw": "[HTTP] [2026-02-05 12:30:45] Connection from 172.16.109.219:29225",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:45",
+      "message": "Connection from 172.16.109.219:29225",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 29225,
+      "event": "connection"
+    },
+    {
+      "line_number": 117,
+      "raw": "[HTTP] [2026-02-05 12:30:45] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:45",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 119,
+      "raw": "[HTTP] [2026-02-05 12:30:45] Connection from 172.16.109.219:29227",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:45",
+      "message": "Connection from 172.16.109.219:29227",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 29227,
+      "event": "connection"
+    },
+    {
+      "line_number": 120,
+      "raw": "[HTTP] [2026-02-05 12:30:45] Request from 172.16.109.219: GET / HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:30:45",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 122,
+      "raw": "[HTTP] [2026-02-05 12:31:03] Connection from 172.16.109.219:9320",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:31:03",
+      "message": "Connection from 172.16.109.219:9320",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 9320,
+      "event": "connection"
+    },
+    {
+      "line_number": 123,
+      "raw": "[HTTP] [2026-02-05 12:31:03] Request from 172.16.109.219: GET / HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:31:03",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 125,
+      "raw": "[12:32:01 PM] [SYSTEM] Connection Lost - System Offline",
+      "timestamp": "12:32:01 PM",
+      "service": "SYSTEM",
+      "message": "Connection Lost - System Offline",
+      "type": "system"
+    },
+    {
+      "line_number": 126,
+      "raw": "[12:32:03 PM] [SYSTEM] Connected to Network Monitor System",
+      "timestamp": "12:32:03 PM",
+      "service": "SYSTEM",
+      "message": "Connected to Network Monitor System",
+      "type": "system"
+    },
+    {
+      "line_number": 127,
+      "raw": "[HTTP] [2026-02-05 12:33:37] Connection from 192.168.56.1:57000",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:33:37",
+      "message": "Connection from 192.168.56.1:57000",
+      "type": "honeypot",
+      "source_ip": "192.168.56.1",
+      "source_port": 57000,
+      "event": "connection"
+    },
+    {
+      "line_number": 128,
+      "raw": "[HTTP] [2026-02-05 12:33:37] Request from 192.168.56.1: GET / HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:33:37",
+      "message": "Request from 192.168.56.1: GET / HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "192.168.56.1",
+      "request": "GET / HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 130,
+      "raw": "[12:41:14 PM] [SYSTEM] Connection Lost - System Offline",
+      "timestamp": "12:41:14 PM",
+      "service": "SYSTEM",
+      "message": "Connection Lost - System Offline",
+      "type": "system"
+    },
+    {
+      "line_number": 131,
+      "raw": "[12:41:15 PM] [SYSTEM] Connected to Network Monitor System",
+      "timestamp": "12:41:15 PM",
+      "service": "SYSTEM",
+      "message": "Connected to Network Monitor System",
+      "type": "system"
+    },
+    {
+      "line_number": 132,
+      "raw": "[12:42:24 PM] [SYSTEM] Connection Lost - System Offline",
+      "timestamp": "12:42:24 PM",
+      "service": "SYSTEM",
+      "message": "Connection Lost - System Offline",
+      "type": "system"
+    },
+    {
+      "line_number": 133,
+      "raw": "[12:42:25 PM] [SYSTEM] Connected to Network Monitor System",
+      "timestamp": "12:42:25 PM",
+      "service": "SYSTEM",
+      "message": "Connected to Network Monitor System",
+      "type": "system"
+    },
+    {
+      "line_number": 134,
+      "raw": "[SSH] [2026-02-05 12:45:51] Connection from 172.16.109.219:37074",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:45:51",
+      "message": "Connection from 172.16.109.219:37074",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 37074,
+      "event": "connection"
+    },
+    {
+      "line_number": 135,
+      "raw": "[FTP] [2026-02-05 12:45:51] Connection from 172.16.109.219:37073",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:45:51",
+      "message": "Connection from 172.16.109.219:37073",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 37073,
+      "event": "connection"
+    },
+    {
+      "line_number": 136,
+      "raw": "[HTTP] [2026-02-05 12:45:51] Connection from 172.16.109.219:37075",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:51",
+      "message": "Connection from 172.16.109.219:37075",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 37075,
+      "event": "connection"
+    },
+    {
+      "line_number": 137,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 139,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Connection from 172.16.109.219:56408",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Connection from 172.16.109.219:56408",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 56408,
+      "event": "connection"
+    },
+    {
+      "line_number": 140,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Connection from 172.16.109.219:56409",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Connection from 172.16.109.219:56409",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 56409,
+      "event": "connection"
+    },
+    {
+      "line_number": 141,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Connection from 172.16.109.219:56411",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Connection from 172.16.109.219:56411",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 56411,
+      "event": "connection"
+    },
+    {
+      "line_number": 142,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: GET /nmaplowercheck1770275757 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Request from 172.16.109.219: GET /nmaplowercheck1770275757 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /nmaplowercheck1770275757 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 144,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: POST /sdk HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Request from 172.16.109.219: POST /sdk HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "POST /sdk HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 146,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 148,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Connection from 172.16.109.219:56414",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Connection from 172.16.109.219:56414",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 56414,
+      "event": "connection"
+    },
+    {
+      "line_number": 149,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: GET /NmapUpperCheck1770275757 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Request from 172.16.109.219: GET /NmapUpperCheck1770275757 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /NmapUpperCheck1770275757 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 151,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Connection from 172.16.109.219:56416",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Connection from 172.16.109.219:56416",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 56416,
+      "event": "connection"
+    },
+    {
+      "line_number": 152,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: GET /Nmap/folder/check1770275757 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Request from 172.16.109.219: GET /Nmap/folder/check1770275757 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /Nmap/folder/check1770275757 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 154,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Connection from 172.16.109.219:56418",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Connection from 172.16.109.219:56418",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 56418,
+      "event": "connection"
+    },
+    {
+      "line_number": 155,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 157,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Connection from 172.16.109.219:56420",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Connection from 172.16.109.219:56420",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 56420,
+      "event": "connection"
+    },
+    {
+      "line_number": 158,
+      "raw": "[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: GET / HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:45:57",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 160,
+      "raw": "[HTTP] [2026-02-05 12:47:17] Connection from 172.16.109.219:24574",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:47:17",
+      "message": "Connection from 172.16.109.219:24574",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 24574,
+      "event": "connection"
+    },
+    {
+      "line_number": 161,
+      "raw": "[HTTP] [2026-02-05 12:47:17] Request from 172.16.109.219: GET / HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:47:17",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 163,
+      "raw": "[HTTP] [2026-02-05 12:47:23] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:47:23",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 164,
+      "raw": "[HTTP] [2026-02-05 12:47:23] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:47:23",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 165,
+      "raw": "[12:47:23 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:47:23 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 166,
+      "raw": "[HTTP] [2026-02-05 12:47:28] Started on port 8080",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:47:28",
+      "message": "Started on port 8080",
+      "type": "honeypot",
+      "port": 8080,
+      "event": "started"
+    },
+    {
+      "line_number": 167,
+      "raw": "[12:47:28 PM] [SYSTEM] Started HTTP on port 8080",
+      "timestamp": "12:47:28 PM",
+      "service": "SYSTEM",
+      "message": "Started HTTP on port 8080",
+      "type": "system"
+    },
+    {
+      "line_number": 168,
+      "raw": "[HTTP] [2026-02-05 12:48:10] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:48:10",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 169,
+      "raw": "[HTTP] [2026-02-05 12:48:10] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:48:10",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 170,
+      "raw": "[12:48:10 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:48:10 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 171,
+      "raw": "[HTTP] [2026-02-05 12:48:14] Started on port 80",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:48:14",
+      "message": "Started on port 80",
+      "type": "honeypot",
+      "port": 80,
+      "event": "started"
+    },
+    {
+      "line_number": 172,
+      "raw": "[12:48:14 PM] [SYSTEM] Started HTTP on port 80",
+      "timestamp": "12:48:14 PM",
+      "service": "SYSTEM",
+      "message": "Started HTTP on port 80",
+      "type": "system"
+    },
+    {
+      "line_number": 173,
+      "raw": "[HTTP] [2026-02-05 12:48:20] Connection from 172.16.109.219:43507",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:48:20",
+      "message": "Connection from 172.16.109.219:43507",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 43507,
+      "event": "connection"
+    },
+    {
+      "line_number": 174,
+      "raw": "[HTTP] [2026-02-05 12:48:20] Request from 172.16.109.219: GET /80 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:48:20",
+      "message": "Request from 172.16.109.219: GET /80 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /80 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 176,
+      "raw": "[HTTP] [2026-02-05 12:49:44] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:49:44",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 177,
+      "raw": "[HTTP] [2026-02-05 12:49:44] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:49:44",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 178,
+      "raw": "[12:49:44 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:49:44 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 179,
+      "raw": "[12:49:47 PM] [SYSTEM] Initiating Stop All sequence...",
+      "timestamp": "12:49:47 PM",
+      "service": "SYSTEM",
+      "message": "Initiating Stop All sequence...",
+      "type": "system"
+    },
+    {
+      "line_number": 180,
+      "raw": "[12:49:47 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:49:47 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 181,
+      "raw": "[FTP] [2026-02-05 12:49:47] Stopped",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:49:47",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 182,
+      "raw": "[FTP] [2026-02-05 12:49:47] Stopped",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:49:47",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 183,
+      "raw": "[12:49:47 PM] [SYSTEM] Stopped FTP service",
+      "timestamp": "12:49:47 PM",
+      "service": "SYSTEM",
+      "message": "Stopped FTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 184,
+      "raw": "[SSH] [2026-02-05 12:49:48] Stopped",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:49:48",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 185,
+      "raw": "[SSH] [2026-02-05 12:49:48] Stopped",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:49:48",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 186,
+      "raw": "[12:49:48 PM] [SYSTEM] Stopped SSH service",
+      "timestamp": "12:49:48 PM",
+      "service": "SYSTEM",
+      "message": "Stopped SSH service",
+      "type": "system"
+    },
+    {
+      "line_number": 187,
+      "raw": "[HTTP] [2026-02-05 12:50:03] Started on port 8080",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:03",
+      "message": "Started on port 8080",
+      "type": "honeypot",
+      "port": 8080,
+      "event": "started"
+    },
+    {
+      "line_number": 188,
+      "raw": "[12:49:06 PM] [SYSTEM] Started HTTP on port 8080",
+      "timestamp": "12:49:06 PM",
+      "service": "SYSTEM",
+      "message": "Started HTTP on port 8080",
+      "type": "system"
+    },
+    {
+      "line_number": 189,
+      "raw": "[12:49:15 PM] [SYSTEM] Initiating Start All sequence...",
+      "timestamp": "12:49:15 PM",
+      "service": "SYSTEM",
+      "message": "Initiating Start All sequence...",
+      "type": "system"
+    },
+    {
+      "line_number": 190,
+      "raw": "[12:49:15 PM] [SYSTEM] Started HTTP on port undefined",
+      "timestamp": "12:49:15 PM",
+      "service": "SYSTEM",
+      "message": "Started HTTP on port undefined",
+      "type": "system"
+    },
+    {
+      "line_number": 191,
+      "raw": "[FTP] [2026-02-05 12:50:13] Started on port 2121",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:50:13",
+      "message": "Started on port 2121",
+      "type": "honeypot",
+      "port": 2121,
+      "event": "started"
+    },
+    {
+      "line_number": 192,
+      "raw": "[12:49:15 PM] [SYSTEM] Started FTP on port 2121",
+      "timestamp": "12:49:15 PM",
+      "service": "SYSTEM",
+      "message": "Started FTP on port 2121",
+      "type": "system"
+    },
+    {
+      "line_number": 193,
+      "raw": "[SSH] [2026-02-05 12:50:13] Started on port 2222",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:50:13",
+      "message": "Started on port 2222",
+      "type": "honeypot",
+      "port": 2222,
+      "event": "started"
+    },
+    {
+      "line_number": 194,
+      "raw": "[12:49:16 PM] [SYSTEM] Started SSH on port 2222",
+      "timestamp": "12:49:16 PM",
+      "service": "SYSTEM",
+      "message": "Started SSH on port 2222",
+      "type": "system"
+    },
+    {
+      "line_number": 195,
+      "raw": "[FTP] [2026-02-05 12:50:17] Connection from 172.16.109.219:26421",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:50:17",
+      "message": "Connection from 172.16.109.219:26421",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 26421,
+      "event": "connection"
+    },
+    {
+      "line_number": 196,
+      "raw": "[HTTP] [2026-02-05 12:50:17] Connection from 172.16.109.219:26424",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:17",
+      "message": "Connection from 172.16.109.219:26424",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 26424,
+      "event": "connection"
+    },
+    {
+      "line_number": 197,
+      "raw": "[SSH] [2026-02-05 12:50:17] Connection from 172.16.109.219:26422",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:50:17",
+      "message": "Connection from 172.16.109.219:26422",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 26422,
+      "event": "connection"
+    },
+    {
+      "line_number": 198,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 200,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Connection from 172.16.109.219:26460",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Connection from 172.16.109.219:26460",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 26460,
+      "event": "connection"
+    },
+    {
+      "line_number": 201,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Connection from 172.16.109.219:26461",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Connection from 172.16.109.219:26461",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 26461,
+      "event": "connection"
+    },
+    {
+      "line_number": 202,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Connection from 172.16.109.219:26464",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Connection from 172.16.109.219:26464",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 26464,
+      "event": "connection"
+    },
+    {
+      "line_number": 203,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: GET /nmaplowercheck1770276023 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Request from 172.16.109.219: GET /nmaplowercheck1770276023 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /nmaplowercheck1770276023 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 205,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 207,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: POST /sdk HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Request from 172.16.109.219: POST /sdk HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "POST /sdk HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 209,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Connection from 172.16.109.219:26466",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Connection from 172.16.109.219:26466",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 26466,
+      "event": "connection"
+    },
+    {
+      "line_number": 210,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: GET /NmapUpperCheck1770276023 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Request from 172.16.109.219: GET /NmapUpperCheck1770276023 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /NmapUpperCheck1770276023 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 212,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Connection from 172.16.109.219:26468",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Connection from 172.16.109.219:26468",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 26468,
+      "event": "connection"
+    },
+    {
+      "line_number": 213,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: GET /Nmap/folder/check1770276023 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Request from 172.16.109.219: GET /Nmap/folder/check1770276023 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /Nmap/folder/check1770276023 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 215,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Connection from 172.16.109.219:26469",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Connection from 172.16.109.219:26469",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 26469,
+      "event": "connection"
+    },
+    {
+      "line_number": 216,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 218,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Connection from 172.16.109.219:26471",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Connection from 172.16.109.219:26471",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 26471,
+      "event": "connection"
+    },
+    {
+      "line_number": 219,
+      "raw": "[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: GET / HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:23",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 221,
+      "raw": "[FTP] [2026-02-05 12:50:41] Stopped",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:50:41",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 222,
+      "raw": "[FTP] [2026-02-05 12:50:41] Stopped",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:50:41",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 223,
+      "raw": "[12:49:44 PM] [SYSTEM] Stopped FTP service",
+      "timestamp": "12:49:44 PM",
+      "service": "SYSTEM",
+      "message": "Stopped FTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 224,
+      "raw": "[SSH] [2026-02-05 12:50:43] Stopped",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:50:43",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 225,
+      "raw": "[SSH] [2026-02-05 12:50:43] Stopped",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:50:43",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 226,
+      "raw": "[12:49:46 PM] [SYSTEM] Stopped SSH service",
+      "timestamp": "12:49:46 PM",
+      "service": "SYSTEM",
+      "message": "Stopped SSH service",
+      "type": "system"
+    },
+    {
+      "line_number": 227,
+      "raw": "[HTTP] [2026-02-05 12:50:46] Connection from 172.16.109.219:1094",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:46",
+      "message": "Connection from 172.16.109.219:1094",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 1094,
+      "event": "connection"
+    },
+    {
+      "line_number": 228,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 230,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Connection from 172.16.109.219:40753",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Connection from 172.16.109.219:40753",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 40753,
+      "event": "connection"
+    },
+    {
+      "line_number": 231,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Connection from 172.16.109.219:40754",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Connection from 172.16.109.219:40754",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 40754,
+      "event": "connection"
+    },
+    {
+      "line_number": 232,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Connection from 172.16.109.219:40756",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Connection from 172.16.109.219:40756",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 40756,
+      "event": "connection"
+    },
+    {
+      "line_number": 233,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 235,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: GET /nmaplowercheck1770276052 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Request from 172.16.109.219: GET /nmaplowercheck1770276052 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /nmaplowercheck1770276052 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 237,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: POST /sdk HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Request from 172.16.109.219: POST /sdk HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "POST /sdk HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 239,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Connection from 172.16.109.219:40758",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Connection from 172.16.109.219:40758",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 40758,
+      "event": "connection"
+    },
+    {
+      "line_number": 240,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: GET /NmapUpperCheck1770276052 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Request from 172.16.109.219: GET /NmapUpperCheck1770276052 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /NmapUpperCheck1770276052 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 242,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Connection from 172.16.109.219:40761",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Connection from 172.16.109.219:40761",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 40761,
+      "event": "connection"
+    },
+    {
+      "line_number": 243,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: GET /Nmap/folder/check1770276052 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Request from 172.16.109.219: GET /Nmap/folder/check1770276052 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /Nmap/folder/check1770276052 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 245,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Connection from 172.16.109.219:40762",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Connection from 172.16.109.219:40762",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 40762,
+      "event": "connection"
+    },
+    {
+      "line_number": 246,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 248,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Connection from 172.16.109.219:40764",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Connection from 172.16.109.219:40764",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 40764,
+      "event": "connection"
+    },
+    {
+      "line_number": 249,
+      "raw": "[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: GET / HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:50:52",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 251,
+      "raw": "[12:52:05 PM] [SYSTEM] Initiating Stop All sequence...",
+      "timestamp": "12:52:05 PM",
+      "service": "SYSTEM",
+      "message": "Initiating Stop All sequence...",
+      "type": "system"
+    },
+    {
+      "line_number": 252,
+      "raw": "[HTTP] [2026-02-05 12:52:05] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:05",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 253,
+      "raw": "[HTTP] [2026-02-05 12:52:05] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:05",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 254,
+      "raw": "[12:52:05 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:52:05 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 255,
+      "raw": "[12:52:05 PM] [SYSTEM] Stopped FTP service",
+      "timestamp": "12:52:05 PM",
+      "service": "SYSTEM",
+      "message": "Stopped FTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 256,
+      "raw": "[12:52:06 PM] [SYSTEM] Stopped SSH service",
+      "timestamp": "12:52:06 PM",
+      "service": "SYSTEM",
+      "message": "Stopped SSH service",
+      "type": "system"
+    },
+    {
+      "line_number": 257,
+      "raw": "[12:52:07 PM] [SYSTEM] Initiating Stop All sequence...",
+      "timestamp": "12:52:07 PM",
+      "service": "SYSTEM",
+      "message": "Initiating Stop All sequence...",
+      "type": "system"
+    },
+    {
+      "line_number": 258,
+      "raw": "[12:52:07 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:52:07 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 259,
+      "raw": "[12:52:08 PM] [SYSTEM] Stopped FTP service",
+      "timestamp": "12:52:08 PM",
+      "service": "SYSTEM",
+      "message": "Stopped FTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 260,
+      "raw": "[12:52:08 PM] [SYSTEM] Stopped SSH service",
+      "timestamp": "12:52:08 PM",
+      "service": "SYSTEM",
+      "message": "Stopped SSH service",
+      "type": "system"
+    },
+    {
+      "line_number": 261,
+      "raw": "[12:51:11 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:51:11 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 262,
+      "raw": "[12:52:15 PM] [SYSTEM] Initiating Start All sequence...",
+      "timestamp": "12:52:15 PM",
+      "service": "SYSTEM",
+      "message": "Initiating Start All sequence...",
+      "type": "system"
+    },
+    {
+      "line_number": 263,
+      "raw": "[HTTP] [2026-02-05 12:52:15] Started on port 80",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:15",
+      "message": "Started on port 80",
+      "type": "honeypot",
+      "port": 80,
+      "event": "started"
+    },
+    {
+      "line_number": 264,
+      "raw": "[12:52:15 PM] [SYSTEM] Started HTTP on port 80",
+      "timestamp": "12:52:15 PM",
+      "service": "SYSTEM",
+      "message": "Started HTTP on port 80",
+      "type": "system"
+    },
+    {
+      "line_number": 265,
+      "raw": "[FTP] [2026-02-05 12:52:16] Started on port 21",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:52:16",
+      "message": "Started on port 21",
+      "type": "honeypot",
+      "port": 21,
+      "event": "started"
+    },
+    {
+      "line_number": 266,
+      "raw": "[12:52:16 PM] [SYSTEM] Started FTP on port 21",
+      "timestamp": "12:52:16 PM",
+      "service": "SYSTEM",
+      "message": "Started FTP on port 21",
+      "type": "system"
+    },
+    {
+      "line_number": 267,
+      "raw": "[SSH] [2026-02-05 12:52:16] Started on port 22",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:52:16",
+      "message": "Started on port 22",
+      "type": "honeypot",
+      "port": 22,
+      "event": "started"
+    },
+    {
+      "line_number": 268,
+      "raw": "[12:52:16 PM] [SYSTEM] Started SSH on port 22",
+      "timestamp": "12:52:16 PM",
+      "service": "SYSTEM",
+      "message": "Started SSH on port 22",
+      "type": "system"
+    },
+    {
+      "line_number": 269,
+      "raw": "[FTP] [2026-02-05 12:52:23] Connection from 172.16.109.219:26912",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:52:23",
+      "message": "Connection from 172.16.109.219:26912",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 26912,
+      "event": "connection"
+    },
+    {
+      "line_number": 270,
+      "raw": "[SSH] [2026-02-05 12:52:23] Connection from 172.16.109.219:26913",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:52:23",
+      "message": "Connection from 172.16.109.219:26913",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 26913,
+      "event": "connection"
+    },
+    {
+      "line_number": 271,
+      "raw": "[HTTP] [2026-02-05 12:52:23] Connection from 172.16.109.219:26914",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:23",
+      "message": "Connection from 172.16.109.219:26914",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 26914,
+      "event": "connection"
+    },
+    {
+      "line_number": 272,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 274,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Connection from 172.16.109.219:58256",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Connection from 172.16.109.219:58256",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 58256,
+      "event": "connection"
+    },
+    {
+      "line_number": 275,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Connection from 172.16.109.219:58257",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Connection from 172.16.109.219:58257",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 58257,
+      "event": "connection"
+    },
+    {
+      "line_number": 276,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Connection from 172.16.109.219:58260",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Connection from 172.16.109.219:58260",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 58260,
+      "event": "connection"
+    },
+    {
+      "line_number": 277,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 279,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: GET /nmaplowercheck1770276149 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Request from 172.16.109.219: GET /nmaplowercheck1770276149 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /nmaplowercheck1770276149 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 281,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: POST /sdk HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Request from 172.16.109.219: POST /sdk HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "POST /sdk HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 283,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Connection from 172.16.109.219:58263",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Connection from 172.16.109.219:58263",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 58263,
+      "event": "connection"
+    },
+    {
+      "line_number": 284,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: GET /NmapUpperCheck1770276149 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Request from 172.16.109.219: GET /NmapUpperCheck1770276149 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /NmapUpperCheck1770276149 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 286,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Connection from 172.16.109.219:58265",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Connection from 172.16.109.219:58265",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 58265,
+      "event": "connection"
+    },
+    {
+      "line_number": 287,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: GET /Nmap/folder/check1770276149 HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Request from 172.16.109.219: GET /Nmap/folder/check1770276149 HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET /Nmap/folder/check1770276149 HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 289,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Connection from 172.16.109.219:58266",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Connection from 172.16.109.219:58266",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 58266,
+      "event": "connection"
+    },
+    {
+      "line_number": 290,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: GET / HTTP/1.0",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.0",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.0",
+      "event": "request"
+    },
+    {
+      "line_number": 292,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Connection from 172.16.109.219:58268",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Connection from 172.16.109.219:58268",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 58268,
+      "event": "connection"
+    },
+    {
+      "line_number": 293,
+      "raw": "[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: GET / HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:52:29",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 295,
+      "raw": "[HTTP] [2026-02-05 12:53:07] Connection from 172.16.109.219:56812",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:53:07",
+      "message": "Connection from 172.16.109.219:56812",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "source_port": 56812,
+      "event": "connection"
+    },
+    {
+      "line_number": 296,
+      "raw": "[HTTP] [2026-02-05 12:53:07] Request from 172.16.109.219: GET / HTTP/1.1",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:53:07",
+      "message": "Request from 172.16.109.219: GET / HTTP/1.1",
+      "type": "honeypot",
+      "source_ip": "172.16.109.219",
+      "request": "GET / HTTP/1.1",
+      "event": "request"
+    },
+    {
+      "line_number": 298,
+      "raw": "[12:56:50 PM] [SYSTEM] Initiating Start All sequence...",
+      "timestamp": "12:56:50 PM",
+      "service": "SYSTEM",
+      "message": "Initiating Start All sequence...",
+      "type": "system"
+    },
+    {
+      "line_number": 299,
+      "raw": "[12:56:50 PM] [SYSTEM] Started HTTP on port undefined",
+      "timestamp": "12:56:50 PM",
+      "service": "SYSTEM",
+      "message": "Started HTTP on port undefined",
+      "type": "system"
+    },
+    {
+      "line_number": 300,
+      "raw": "[12:56:51 PM] [SYSTEM] Started FTP on port undefined",
+      "timestamp": "12:56:51 PM",
+      "service": "SYSTEM",
+      "message": "Started FTP on port undefined",
+      "type": "system"
+    },
+    {
+      "line_number": 301,
+      "raw": "[12:56:51 PM] [SYSTEM] Started SSH on port undefined",
+      "timestamp": "12:56:51 PM",
+      "service": "SYSTEM",
+      "message": "Started SSH on port undefined",
+      "type": "system"
+    },
+    {
+      "line_number": 302,
+      "raw": "[12:56:54 PM] [SYSTEM] Initiating Stop All sequence...",
+      "timestamp": "12:56:54 PM",
+      "service": "SYSTEM",
+      "message": "Initiating Stop All sequence...",
+      "type": "system"
+    },
+    {
+      "line_number": 303,
+      "raw": "[HTTP] [2026-02-05 12:56:54] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:56:54",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 304,
+      "raw": "[HTTP] [2026-02-05 12:56:54] Stopped",
+      "service": "HTTP",
+      "timestamp": "2026-02-05 12:56:54",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 305,
+      "raw": "[12:56:54 PM] [SYSTEM] Stopped HTTP service",
+      "timestamp": "12:56:54 PM",
+      "service": "SYSTEM",
+      "message": "Stopped HTTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 306,
+      "raw": "[FTP] [2026-02-05 12:56:55] Stopped",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:56:55",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 307,
+      "raw": "[FTP] [2026-02-05 12:56:55] Stopped",
+      "service": "FTP",
+      "timestamp": "2026-02-05 12:56:55",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 308,
+      "raw": "[12:56:55 PM] [SYSTEM] Stopped FTP service",
+      "timestamp": "12:56:55 PM",
+      "service": "SYSTEM",
+      "message": "Stopped FTP service",
+      "type": "system"
+    },
+    {
+      "line_number": 309,
+      "raw": "[SSH] [2026-02-05 12:56:55] Stopped",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:56:55",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 310,
+      "raw": "[SSH] [2026-02-05 12:56:55] Stopped",
+      "service": "SSH",
+      "timestamp": "2026-02-05 12:56:55",
+      "message": "Stopped",
+      "type": "honeypot",
+      "event": "stopped"
+    },
+    {
+      "line_number": 311,
+      "raw": "[12:56:55 PM] [SYSTEM] Stopped SSH service",
+      "timestamp": "12:56:55 PM",
+      "service": "SYSTEM",
+      "message": "Stopped SSH service",
+      "type": "system"
+    },
+    {
+      "line_number": 312,
+      "raw": "[12:58:30 PM] [SYSTEM] Connection Lost - System Offline",
+      "timestamp": "12:58:30 PM",
+      "service": "SYSTEM",
+      "message": "Connection Lost - System Offline",
+      "type": "system"
+    },
+    {
+      "line_number": 313,
+      "raw": "[12:58:31 PM] [SYSTEM] Connected to Network Monitor System",
+      "timestamp": "12:58:31 PM",
+      "service": "SYSTEM",
+      "message": "Connected to Network Monitor System",
+      "type": "system"
+    }
+  ],
+  "statistics": {
+    "system_events": 91,
+    "http_events": 131,
+    "ftp_events": 19,
+    "ssh_events": 19,
+    "connections": 61,
+    "requests": 53
+  }
+}

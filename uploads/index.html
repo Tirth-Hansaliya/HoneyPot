@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MiniTube — YouTube-like Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">YouTube</div>
+      <div class="search">
+        <input id="searchInput" placeholder="Search" />
+        <button id="searchBtn">Search</button>
+      </div>
+      <div class="profile">☺</div>
+    </header>
+    <div class="app">
+      <aside class="sidebar">
+        <nav>
+          <a class="active">Home</a>
+          <a>Trending</a>
+          <a>Subscriptions</a>
+          <hr />
+          <a>Library</a>
+          <a>History</a>
+        </nav>
+      </aside>
+
+      <main class="main">
+        <!-- chips / category row (like YouTube) -->
+        <div class="chips" id="chips">
+          <!-- pills rendered by script.js -->
+        </div>
+
+        <!-- featured horizontal carousel -->
+        <section class="featured" id="featured" aria-label="featured">
+          <!-- featured items injected by script.js -->
+        </section>
+
+        <!-- Shorts horizontal scroller -->
+        <section class="shorts" id="shorts">
+          <h3 class="section-title">Shorts</h3>
+          <div class="shorts-row" id="shortsRow"></div>
+        </section>
+
+        <section class="player" id="player">
+          <div class="player-thumb" id="playerThumb">Click a video to play</div>
+          <div class="player-info">
+            <h2 id="playerTitle">Select a video</h2>
+            <p id="playerDesc">Video description will appear here.</p>
+          </div>
+        </section>
+
+        <section class="grid" id="videoGrid" aria-label="videos">
+          <!-- Video cards are injected by script.js -->
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

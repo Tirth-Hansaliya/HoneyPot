@@ -1,0 +1,1311 @@
+[12:05:19 PM] [SYSTEM] Connected to Network Monitor System
+[HTTP] [2026-02-05 12:05:30] Started on port 8080
+[12:05:30 PM] [SYSTEM] Started HTTP on port 8080
+[12:05:47 PM] [SYSTEM] Uploaded HTML file: index.html
+[12:06:41 PM] [SYSTEM] Initiating Start All sequence...
+[12:06:41 PM] [SYSTEM] Started HTTP on port undefined
+[FTP] [2026-02-05 12:06:42] Started on port 2121
+[12:06:42 PM] [SYSTEM] Started FTP on port 2121
+[SSH] [2026-02-05 12:06:42] Started on port 2222
+[12:06:42 PM] [SYSTEM] Started SSH on port 2222
+[12:06:45 PM] [SYSTEM] Initiating Stop All sequence...
+[HTTP] [2026-02-05 12:06:45] Stopped
+[HTTP] [2026-02-05 12:06:45] Stopped
+[12:06:45 PM] [SYSTEM] Stopped HTTP service
+[FTP] [2026-02-05 12:06:45] Stopped
+[FTP] [2026-02-05 12:06:45] Stopped
+[12:06:45 PM] [SYSTEM] Stopped FTP service
+[SSH] [2026-02-05 12:06:46] Stopped
+[SSH] [2026-02-05 12:06:46] Stopped
+[12:06:46 PM] [SYSTEM] Stopped SSH service
+[12:06:51 PM] [SYSTEM] Initiating Start All sequence...
+[HTTP] [2026-02-05 12:06:53] Started on port 80
+[12:06:53 PM] [SYSTEM] Started HTTP on port 80
+[FTP] [2026-02-05 12:06:53] Started on port 2121
+[12:06:53 PM] [SYSTEM] Started FTP on port 2121
+[SSH] [2026-02-05 12:06:54] Started on port 2222
+[12:06:54 PM] [SYSTEM] Started SSH on port 2222
+[HTTP] [2026-02-05 12:15:15] Stopped
+[HTTP] [2026-02-05 12:15:15] Stopped
+[12:15:15 PM] [SYSTEM] Stopped HTTP service
+[12:15:16 PM] [SYSTEM] Initiating Stop All sequence...
+[12:15:16 PM] [SYSTEM] Stopped HTTP service
+[FTP] [2026-02-05 12:15:17] Stopped
+[FTP] [2026-02-05 12:15:17] Stopped
+[12:15:17 PM] [SYSTEM] Stopped FTP service
+[SSH] [2026-02-05 12:15:17] Stopped
+[SSH] [2026-02-05 12:15:17] Stopped
+[12:15:17 PM] [SYSTEM] Stopped SSH service
+[12:15:17 PM] [SYSTEM] Initiating Stop All sequence...
+[12:15:17 PM] [SYSTEM] Stopped HTTP service
+[12:15:18 PM] [SYSTEM] Stopped FTP service
+[12:15:18 PM] [SYSTEM] Stopped SSH service
+[12:17:18 PM] [SYSTEM] Connected to Network Monitor System
+[12:17:31 PM] [SYSTEM] Uploaded HTML file: index.html
+[HTTP] [2026-02-05 12:17:38] Started on port 80
+[12:17:38 PM] [SYSTEM] Started HTTP on port 80
+[12:24:59 PM] [SYSTEM] Connected to Network Monitor System
+[12:26:13 PM] [SYSTEM] Initiating Stop All sequence...
+[12:26:13 PM] [SYSTEM] Stopped HTTP service
+[12:26:14 PM] [SYSTEM] Stopped FTP service
+[12:26:14 PM] [SYSTEM] Stopped SSH service
+[12:26:16 PM] [SYSTEM] Initiating Stop All sequence...
+[12:26:16 PM] [SYSTEM] Stopped HTTP service
+[12:26:16 PM] [SYSTEM] Stopped FTP service
+[12:26:17 PM] [SYSTEM] Stopped SSH service
+[HTTP] [2026-02-05 12:26:20] Started on port 8080
+[12:26:20 PM] [SYSTEM] Started HTTP on port 8080
+[HTTP] [2026-02-05 12:26:45] Connection from 172.16.109.219:55500
+[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: GET / HTTP/1.0
+[12:26:51 PM] [SYSTEM] Uploaded HTML file: index.html
+[HTTP] [2026-02-05 12:26:51] Connection from 172.16.109.219:37779
+[HTTP] [2026-02-05 12:26:51] Connection from 172.16.109.219:37780
+[HTTP] [2026-02-05 12:26:51] Connection from 172.16.109.219:37783
+[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: GET /nmaplowercheck1770274611 HTTP/1.1
+[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: POST /sdk HTTP/1.1
+[HTTP] [2026-02-05 12:26:51] Connection from 172.16.109.219:37785
+[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: GET /NmapUpperCheck1770274611 HTTP/1.1
+[HTTP] [2026-02-05 12:26:51] Connection from 172.16.109.219:37787
+[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: GET /Nmap/folder/check1770274611 HTTP/1.1
+[HTTP] [2026-02-05 12:26:51] Connection from 172.16.109.219:37788
+[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:26:51] Connection from 172.16.109.219:37791
+[HTTP] [2026-02-05 12:26:51] Request from 172.16.109.219: GET / HTTP/1.1
+[HTTP] [2026-02-05 12:28:35] Stopped
+[HTTP] [2026-02-05 12:28:35] Stopped
+[12:28:36 PM] [SYSTEM] Stopped HTTP service
+[12:29:59 PM] [SYSTEM] Connection Lost - System Offline
+[12:30:00 PM] [SYSTEM] Connected to Network Monitor System
+[12:30:05 PM] [SYSTEM] Connection Lost - System Offline
+[12:30:06 PM] [SYSTEM] Connected to Network Monitor System
+[HTTP] [2026-02-05 12:30:29] Started on port 80
+[12:30:29 PM] [SYSTEM] Started HTTP on port 80
+[FTP] [2026-02-05 12:30:30] Started on port 21
+[12:30:30 PM] [SYSTEM] Started FTP on port 21
+[SSH] [2026-02-05 12:30:32] Started on port 22
+[12:30:32 PM] [SYSTEM] Started SSH on port 22
+[FTP] [2026-02-05 12:30:38] Connection from 172.16.109.219:29172
+[HTTP] [2026-02-05 12:30:38] Connection from 172.16.109.219:29174
+[SSH] [2026-02-05 12:30:38] Connection from 172.16.109.219:29173
+[HTTP] [2026-02-05 12:30:44] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:30:44] Connection from 172.16.109.219:29214
+[HTTP] [2026-02-05 12:30:44] Connection from 172.16.109.219:29216
+[HTTP] [2026-02-05 12:30:44] Connection from 172.16.109.219:29218
+[HTTP] [2026-02-05 12:30:44] Request from 172.16.109.219: POST /sdk HTTP/1.1
+[HTTP] [2026-02-05 12:30:44] Request from 172.16.109.219: GET /nmaplowercheck1770274844 HTTP/1.1
+[HTTP] [2026-02-05 12:30:44] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:30:44] Connection from 172.16.109.219:29221
+[HTTP] [2026-02-05 12:30:44] Request from 172.16.109.219: GET /NmapUpperCheck1770274844 HTTP/1.1
+[HTTP] [2026-02-05 12:30:44] Connection from 172.16.109.219:29222
+[HTTP] [2026-02-05 12:30:44] Request from 172.16.109.219: GET /Nmap/folder/check1770274844 HTTP/1.1
+[HTTP] [2026-02-05 12:30:45] Connection from 172.16.109.219:29225
+[HTTP] [2026-02-05 12:30:45] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:30:45] Connection from 172.16.109.219:29227
+[HTTP] [2026-02-05 12:30:45] Request from 172.16.109.219: GET / HTTP/1.1
+[HTTP] [2026-02-05 12:31:03] Connection from 172.16.109.219:9320
+[HTTP] [2026-02-05 12:31:03] Request from 172.16.109.219: GET / HTTP/1.1
+[12:32:01 PM] [SYSTEM] Connection Lost - System Offline
+[12:32:03 PM] [SYSTEM] Connected to Network Monitor System
+[HTTP] [2026-02-05 12:33:37] Connection from 192.168.56.1:57000
+[HTTP] [2026-02-05 12:33:37] Request from 192.168.56.1: GET / HTTP/1.1
+[12:41:14 PM] [SYSTEM] Connection Lost - System Offline
+[12:41:15 PM] [SYSTEM] Connected to Network Monitor System
+[12:42:24 PM] [SYSTEM] Connection Lost - System Offline
+[12:42:25 PM] [SYSTEM] Connected to Network Monitor System
+[SSH] [2026-02-05 12:45:51] Connection from 172.16.109.219:37074
+[FTP] [2026-02-05 12:45:51] Connection from 172.16.109.219:37073
+[HTTP] [2026-02-05 12:45:51] Connection from 172.16.109.219:37075
+[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:45:57] Connection from 172.16.109.219:56408
+[HTTP] [2026-02-05 12:45:57] Connection from 172.16.109.219:56409
+[HTTP] [2026-02-05 12:45:57] Connection from 172.16.109.219:56411
+[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: GET /nmaplowercheck1770275757 HTTP/1.1
+[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: POST /sdk HTTP/1.1
+[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:45:57] Connection from 172.16.109.219:56414
+[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: GET /NmapUpperCheck1770275757 HTTP/1.1
+[HTTP] [2026-02-05 12:45:57] Connection from 172.16.109.219:56416
+[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: GET /Nmap/folder/check1770275757 HTTP/1.1
+[HTTP] [2026-02-05 12:45:57] Connection from 172.16.109.219:56418
+[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:45:57] Connection from 172.16.109.219:56420
+[HTTP] [2026-02-05 12:45:57] Request from 172.16.109.219: GET / HTTP/1.1
+[HTTP] [2026-02-05 12:47:17] Connection from 172.16.109.219:24574
+[HTTP] [2026-02-05 12:47:17] Request from 172.16.109.219: GET / HTTP/1.1
+[HTTP] [2026-02-05 12:47:23] Stopped
+[HTTP] [2026-02-05 12:47:23] Stopped
+[12:47:23 PM] [SYSTEM] Stopped HTTP service
+[HTTP] [2026-02-05 12:47:28] Started on port 8080
+[12:47:28 PM] [SYSTEM] Started HTTP on port 8080
+[HTTP] [2026-02-05 12:48:10] Stopped
+[HTTP] [2026-02-05 12:48:10] Stopped
+[12:48:10 PM] [SYSTEM] Stopped HTTP service
+[HTTP] [2026-02-05 12:48:14] Started on port 80
+[12:48:14 PM] [SYSTEM] Started HTTP on port 80
+[HTTP] [2026-02-05 12:48:20] Connection from 172.16.109.219:43507
+[HTTP] [2026-02-05 12:48:20] Request from 172.16.109.219: GET /80 HTTP/1.1
+[HTTP] [2026-02-05 12:49:44] Stopped
+[HTTP] [2026-02-05 12:49:44] Stopped
+[12:49:44 PM] [SYSTEM] Stopped HTTP service
+[12:49:47 PM] [SYSTEM] Initiating Stop All sequence...
+[12:49:47 PM] [SYSTEM] Stopped HTTP service
+[FTP] [2026-02-05 12:49:47] Stopped
+[FTP] [2026-02-05 12:49:47] Stopped
+[12:49:47 PM] [SYSTEM] Stopped FTP service
+[SSH] [2026-02-05 12:49:48] Stopped
+[SSH] [2026-02-05 12:49:48] Stopped
+[12:49:48 PM] [SYSTEM] Stopped SSH service
+[HTTP] [2026-02-05 12:50:03] Started on port 8080
+[12:49:06 PM] [SYSTEM] Started HTTP on port 8080
+[12:49:15 PM] [SYSTEM] Initiating Start All sequence...
+[12:49:15 PM] [SYSTEM] Started HTTP on port undefined
+[FTP] [2026-02-05 12:50:13] Started on port 2121
+[12:49:15 PM] [SYSTEM] Started FTP on port 2121
+[SSH] [2026-02-05 12:50:13] Started on port 2222
+[12:49:16 PM] [SYSTEM] Started SSH on port 2222
+[FTP] [2026-02-05 12:50:17] Connection from 172.16.109.219:26421
+[HTTP] [2026-02-05 12:50:17] Connection from 172.16.109.219:26424
+[SSH] [2026-02-05 12:50:17] Connection from 172.16.109.219:26422
+[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:50:23] Connection from 172.16.109.219:26460
+[HTTP] [2026-02-05 12:50:23] Connection from 172.16.109.219:26461
+[HTTP] [2026-02-05 12:50:23] Connection from 172.16.109.219:26464
+[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: GET /nmaplowercheck1770276023 HTTP/1.1
+[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: POST /sdk HTTP/1.1
+[HTTP] [2026-02-05 12:50:23] Connection from 172.16.109.219:26466
+[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: GET /NmapUpperCheck1770276023 HTTP/1.1
+[HTTP] [2026-02-05 12:50:23] Connection from 172.16.109.219:26468
+[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: GET /Nmap/folder/check1770276023 HTTP/1.1
+[HTTP] [2026-02-05 12:50:23] Connection from 172.16.109.219:26469
+[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:50:23] Connection from 172.16.109.219:26471
+[HTTP] [2026-02-05 12:50:23] Request from 172.16.109.219: GET / HTTP/1.1
+[FTP] [2026-02-05 12:50:41] Stopped
+[FTP] [2026-02-05 12:50:41] Stopped
+[12:49:44 PM] [SYSTEM] Stopped FTP service
+[SSH] [2026-02-05 12:50:43] Stopped
+[SSH] [2026-02-05 12:50:43] Stopped
+[12:49:46 PM] [SYSTEM] Stopped SSH service
+[HTTP] [2026-02-05 12:50:46] Connection from 172.16.109.219:1094
+[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:50:52] Connection from 172.16.109.219:40753
+[HTTP] [2026-02-05 12:50:52] Connection from 172.16.109.219:40754
+[HTTP] [2026-02-05 12:50:52] Connection from 172.16.109.219:40756
+[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: GET /nmaplowercheck1770276052 HTTP/1.1
+[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: POST /sdk HTTP/1.1
+[HTTP] [2026-02-05 12:50:52] Connection from 172.16.109.219:40758
+[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: GET /NmapUpperCheck1770276052 HTTP/1.1
+[HTTP] [2026-02-05 12:50:52] Connection from 172.16.109.219:40761
+[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: GET /Nmap/folder/check1770276052 HTTP/1.1
+[HTTP] [2026-02-05 12:50:52] Connection from 172.16.109.219:40762
+[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:50:52] Connection from 172.16.109.219:40764
+[HTTP] [2026-02-05 12:50:52] Request from 172.16.109.219: GET / HTTP/1.1
+[12:52:05 PM] [SYSTEM] Initiating Stop All sequence...
+[HTTP] [2026-02-05 12:52:05] Stopped
+[HTTP] [2026-02-05 12:52:05] Stopped
+[12:52:05 PM] [SYSTEM] Stopped HTTP service
+[12:52:05 PM] [SYSTEM] Stopped FTP service
+[12:52:06 PM] [SYSTEM] Stopped SSH service
+[12:52:07 PM] [SYSTEM] Initiating Stop All sequence...
+[12:52:07 PM] [SYSTEM] Stopped HTTP service
+[12:52:08 PM] [SYSTEM] Stopped FTP service
+[12:52:08 PM] [SYSTEM] Stopped SSH service
+[12:51:11 PM] [SYSTEM] Stopped HTTP service
+[12:52:15 PM] [SYSTEM] Initiating Start All sequence...
+[HTTP] [2026-02-05 12:52:15] Started on port 80
+[12:52:15 PM] [SYSTEM] Started HTTP on port 80
+[FTP] [2026-02-05 12:52:16] Started on port 21
+[12:52:16 PM] [SYSTEM] Started FTP on port 21
+[SSH] [2026-02-05 12:52:16] Started on port 22
+[12:52:16 PM] [SYSTEM] Started SSH on port 22
+[FTP] [2026-02-05 12:52:23] Connection from 172.16.109.219:26912
+[SSH] [2026-02-05 12:52:23] Connection from 172.16.109.219:26913
+[HTTP] [2026-02-05 12:52:23] Connection from 172.16.109.219:26914
+[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:52:29] Connection from 172.16.109.219:58256
+[HTTP] [2026-02-05 12:52:29] Connection from 172.16.109.219:58257
+[HTTP] [2026-02-05 12:52:29] Connection from 172.16.109.219:58260
+[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: GET /nmaplowercheck1770276149 HTTP/1.1
+[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: POST /sdk HTTP/1.1
+[HTTP] [2026-02-05 12:52:29] Connection from 172.16.109.219:58263
+[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: GET /NmapUpperCheck1770276149 HTTP/1.1
+[HTTP] [2026-02-05 12:52:29] Connection from 172.16.109.219:58265
+[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: GET /Nmap/folder/check1770276149 HTTP/1.1
+[HTTP] [2026-02-05 12:52:29] Connection from 172.16.109.219:58266
+[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 12:52:29] Connection from 172.16.109.219:58268
+[HTTP] [2026-02-05 12:52:29] Request from 172.16.109.219: GET / HTTP/1.1
+[HTTP] [2026-02-05 12:53:07] Connection from 172.16.109.219:56812
+[HTTP] [2026-02-05 12:53:07] Request from 172.16.109.219: GET / HTTP/1.1
+[12:56:50 PM] [SYSTEM] Initiating Start All sequence...
+[12:56:50 PM] [SYSTEM] Started HTTP on port undefined
+[12:56:51 PM] [SYSTEM] Started FTP on port undefined
+[12:56:51 PM] [SYSTEM] Started SSH on port undefined
+[12:56:54 PM] [SYSTEM] Initiating Stop All sequence...
+[HTTP] [2026-02-05 12:56:54] Stopped
+[HTTP] [2026-02-05 12:56:54] Stopped
+[12:56:54 PM] [SYSTEM] Stopped HTTP service
+[FTP] [2026-02-05 12:56:55] Stopped
+[FTP] [2026-02-05 12:56:55] Stopped
+[12:56:55 PM] [SYSTEM] Stopped FTP service
+[SSH] [2026-02-05 12:56:55] Stopped
+[SSH] [2026-02-05 12:56:55] Stopped
+[12:56:55 PM] [SYSTEM] Stopped SSH service
+[12:58:30 PM] [SYSTEM] Connection Lost - System Offline
+[12:58:31 PM] [SYSTEM] Connected to Network Monitor System
+[12:58:54 PM] [SYSTEM] Connection Lost - System Offline
+[12:58:55 PM] [SYSTEM] Connected to Network Monitor System
+[HTTP] [2026-02-05 13:00:01] Started on port 80
+[1:00:01 PM] [SYSTEM] Started HTTP on port 80
+[1:11:53 PM] [SYSTEM] Connected to Network Monitor System
+[1:11:56 PM] [SYSTEM] Connected to Network Monitor System
+[1:12:24 PM] [SYSTEM] Uploaded FTP file: CNS_Assignment_2025_26.pdf
+[HTTP] [2026-02-05 13:12:33] Started on port 8080
+[1:12:33 PM] [SYSTEM] Started HTTP on port 8080
+[FTP] [2026-02-05 13:12:34] Started on port 21
+[1:12:34 PM] [SYSTEM] Started FTP on port 21
+[HTTP] [2026-02-05 13:12:39] Connection from 172.16.109.219:47280
+[FTP] [2026-02-05 13:12:39] Connection from 172.16.109.219:47275
+[HTTP] [2026-02-05 13:12:45] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 13:12:45] Connection from 172.16.109.219:47314
+[HTTP] [2026-02-05 13:12:45] Connection from 172.16.109.219:47315
+[HTTP] [2026-02-05 13:12:45] Connection from 172.16.109.219:47317
+[HTTP] [2026-02-05 13:12:45] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 13:12:45] Request from 172.16.109.219: POST /sdk HTTP/1.1
+[HTTP] [2026-02-05 13:12:45] Request from 172.16.109.219: GET /nmaplowercheck1770277365 HTTP/1.1
+[HTTP] [2026-02-05 13:12:45] Connection from 172.16.109.219:47321
+[HTTP] [2026-02-05 13:12:45] Request from 172.16.109.219: GET /NmapUpperCheck1770277365 HTTP/1.1
+[HTTP] [2026-02-05 13:12:45] Connection from 172.16.109.219:47323
+[HTTP] [2026-02-05 13:12:45] Request from 172.16.109.219: GET /Nmap/folder/check1770277365 HTTP/1.1
+[HTTP] [2026-02-05 13:12:45] Connection from 172.16.109.219:47325
+[HTTP] [2026-02-05 13:12:45] Request from 172.16.109.219: GET / HTTP/1.0
+[HTTP] [2026-02-05 13:12:45] Connection from 172.16.109.219:47327
+[HTTP] [2026-02-05 13:12:45] Request from 172.16.109.219: GET / HTTP/1.1
+[FTP] [2026-02-05 13:13:38] Connection from 172.16.109.219:37173
+[FTP] [2026-02-05 13:13:38] Command from 172.16.109.219: OPTS UTF8 ON
+[FTP] [2026-02-05 13:13:54] Command from 172.16.109.219: USER anonymous
+[FTP] [2026-02-05 13:13:54] Username attempt from 172.16.109.219: anonymous
+[FTP] [2026-02-05 13:13:57] Command from 172.16.109.219: PASS 123
+[FTP] [2026-02-05 13:13:57] Password attempt from 172.16.109.219: 123
+[FTP] [2026-02-05 13:13:57] Anonymous login from 172.16.109.219
+[FTP] [2026-02-05 13:14:00] Command from 172.16.109.219: PORT 172,16,109,219,186,109
+[FTP] [2026-02-05 13:14:01] Command from 172.16.109.219: NLST
+[FTP] [2026-02-05 13:14:01] File listing requested from 172.16.109.219
+[1:22:38 PM] [SYSTEM] Initiating Stop All sequence...
+[HTTP] [2026-02-05 13:22:38] Stopped
+[HTTP] [2026-02-05 13:22:38] Stopped
+[1:22:38 PM] [SYSTEM] Stopped HTTP service
+[FTP] [2026-02-05 13:22:38] Stopped
+[FTP] [2026-02-05 13:22:38] Stopped
+[1:22:38 PM] [SYSTEM] Stopped FTP service
+[1:22:39 PM] [SYSTEM] Stopped SSH service
+[1:43:54 PM] [SYSTEM] Initiating Start All sequence...
+[HTTP] [2026-02-05 13:43:54] Started on port 8080
+[1:43:54 PM] [SYSTEM] Started HTTP on port 8080
+[FTP] [2026-02-05 13:43:55] Started on port 21
+[1:43:55 PM] [SYSTEM] Started FTP on port 21
+[SSH] [2026-02-05 13:43:55] Started on port 2222
+[1:43:55 PM] [SYSTEM] Started SSH on port 2222
+[9:26:50 AM] [SYSTEM] Connected to Network Monitor System
+[9:47:40 AM] [SYSTEM] Connected to Network Monitor System
+[9:49:14 AM] [SYSTEM] Uploaded HTML file: index.html
+[HTTP] [2026-02-06 09:49:22] Started on port 80
+[9:49:22 AM] [SYSTEM] Started HTTP on port 80
+[HTTP] [2026-02-06 09:49:56] Connection from 192.168.21.215:21534
+[HTTP] [2026-02-06 09:50:02] Request from 192.168.21.215: GET / HTTP/1.0
+[HTTP] [2026-02-06 09:50:02] Connection from 192.168.21.215:37165
+[HTTP] [2026-02-06 09:50:02] Connection from 192.168.21.215:37168
+[HTTP] [2026-02-06 09:50:02] Connection from 192.168.21.215:37170
+[HTTP] [2026-02-06 09:50:02] Request from 192.168.21.215: GET / HTTP/1.0
+[HTTP] [2026-02-06 09:50:02] Request from 192.168.21.215: GET /nmaplowercheck1770351602 HTTP/1.1
+[HTTP] [2026-02-06 09:50:02] Request from 192.168.21.215: POST /sdk HTTP/1.1
+[HTTP] [2026-02-06 09:50:02] Connection from 192.168.21.215:37172
+[HTTP] [2026-02-06 09:50:02] Request from 192.168.21.215: GET /NmapUpperCheck1770351602 HTTP/1.1
+[HTTP] [2026-02-06 09:50:02] Connection from 192.168.21.215:37174
+[HTTP] [2026-02-06 09:50:02] Request from 192.168.21.215: GET /Nmap/folder/check1770351602 HTTP/1.1
+[HTTP] [2026-02-06 09:50:03] Connection from 192.168.21.215:37176
+[HTTP] [2026-02-06 09:50:03] Request from 192.168.21.215: GET / HTTP/1.0
+[HTTP] [2026-02-06 09:50:03] Connection from 192.168.21.215:37178
+[HTTP] [2026-02-06 09:50:03] Request from 192.168.21.215: GET / HTTP/1.1
+[HTTP] [2026-02-06 09:50:33] Connection from 192.168.21.215:10603
+[HTTP] [2026-02-06 09:50:33] Connection from 192.168.21.215:58952
+[HTTP] [2026-02-06 09:50:33] Request from 192.168.21.215: GET / HTTP/1.1
+[9:54:47 AM] [SYSTEM] Connection Lost - System Offline
+[9:54:49 AM] [SYSTEM] Connected to Network Monitor System
+[9:54:51 AM] [SYSTEM] Connection Lost - System Offline
+[9:54:53 AM] [SYSTEM] Connected to Network Monitor System
+[9:55:02 AM] [SYSTEM] Connection Lost - System Offline
+[9:55:04 AM] [SYSTEM] Connected to Network Monitor System
+[9:55:09 AM] [SYSTEM] Connection Lost - System Offline
+[9:55:11 AM] [SYSTEM] Connected to Network Monitor System
+[9:55:12 AM] [SYSTEM] Connection Lost - System Offline
+[9:55:14 AM] [SYSTEM] Connected to Network Monitor System
+[9:55:21 AM] [SYSTEM] Connection Lost - System Offline
+[9:55:23 AM] [SYSTEM] Connected to Network Monitor System
+[9:55:28 AM] [SYSTEM] Connection Lost - System Offline
+[9:55:30 AM] [SYSTEM] Connected to Network Monitor System
+[9:56:26 AM] [SYSTEM] Connection Lost - System Offline
+[9:56:28 AM] [SYSTEM] Connected to Network Monitor System
+[12:22:53 PM] [SYSTEM] Connected to Network Monitor System
+[12:23:04 PM] [SYSTEM] Connected to Network Monitor System
+[HTTP] [2026-02-09 12:23:08] Started on port 8080
+[12:23:08 PM] [SYSTEM] Started HTTP on port 8080
+[FTP] [2026-02-09 12:23:09] Started on port 2121
+[12:23:09 PM] [SYSTEM] Started FTP on port 2121
+[FTP] [2026-02-09 12:23:13] Stopped
+[FTP] [2026-02-09 12:23:13] Stopped
+[12:23:13 PM] [SYSTEM] Stopped FTP service
+[HTTP] [2026-02-09 12:23:14] Stopped
+[HTTP] [2026-02-09 12:23:14] Stopped
+[12:23:14 PM] [SYSTEM] Stopped HTTP service
+[HTTP] [2026-02-09 12:24:23] Started on port 8080
+[12:24:23 PM] [SYSTEM] Started HTTP on port 8080
+[FTP] [2026-02-09 12:24:24] Started on port 2121
+[12:24:24 PM] [SYSTEM] Started FTP on port 2121
+[FTP] [2026-02-09 12:24:37] Connection from 172.16.109.102:49680
+[HTTP] [2026-02-09 12:24:43] Connection from 172.16.109.102:49682 - GET / HTTP/1.0
+[HTTP] [2026-02-09 12:24:43] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:24:43] Connection from 172.16.109.102:32470 - GET /nmaplowercheck1770620083 HTTP/1.1
+[HTTP] [2026-02-09 12:24:43] Connection from 172.16.109.102:32469 - GET / HTTP/1.0
+[HTTP] [2026-02-09 12:24:43] Connection from 172.16.109.102:32471 - POST /sdk HTTP/1.1
+[HTTP] [2026-02-09 12:24:43] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:24:43] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:24:43] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:24:43] Connection from 172.16.109.102:32475 - GET /evox/about HTTP/1.1
+[HTTP] [2026-02-09 12:24:43] Connection from 172.16.109.102:32477 - GET /nmaplowercheck1770620083 HTTP/1.1
+[HTTP] [2026-02-09 12:24:43] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:24:43] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:24:43] Connection from 172.16.109.102:32478 - GET /HNAP1 HTTP/1.1
+[HTTP] [2026-02-09 12:24:43] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:24:43] Connection from 172.16.109.102:32479 - GET / HTTP/1.0
+[HTTP] [2026-02-09 12:24:43] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:24:43] Connection from 172.16.109.102:32482 - GET / HTTP/1.1
+[HTTP] [2026-02-09 12:24:43] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[FTP] [2026-02-09 12:25:21] Stopped
+[12:25:21 PM] [SYSTEM] Stopped FTP service
+[12:25:35 PM] [SYSTEM] Uploaded FTP file: budapest.jpg
+[FTP] [2026-02-09 12:25:37] Started on port 2121
+[12:25:37 PM] [SYSTEM] Started FTP on port 2121
+[FTP] [2026-02-09 12:25:51] Connection from 172.16.109.102:37376
+[HTTP] [2026-02-09 12:25:57] Connection from 172.16.109.102:37378 - GET / HTTP/1.0
+[HTTP] [2026-02-09 12:25:57] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:25:57] Connection from 172.16.109.102:28812 - GET /nmaplowercheck1770620157 HTTP/1.1
+[HTTP] [2026-02-09 12:25:57] Connection from 172.16.109.102:28815 - GET / HTTP/1.0
+ected
+[HTTP] [2026-02-09 12:25:57] Connection from 172.16.109.102:28816 - POST /sdk HTTP/1.1
+[HTTP] [2026-02-09 12:25:57] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:25:57] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:25:57] Connection from 172.16.109.102:28818 - GET /evox/about HTTP/1.1
+[HTTP] [2026-02-09 12:25:57] Connection from 172.16.109.102:28820 - GET /nmaplowercheck1770620157 HTTP/1.1
+[HTTP] [2026-02-09 12:25:57] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:25:57] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:25:57] Connection from 172.16.109.102:28822 - GET /HNAP1 HTTP/1.1
+[HTTP] [2026-02-09 12:25:57] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:25:57] Connection from 172.16.109.102:28823 - GET / HTTP/1.0
+[HTTP] [2026-02-09 12:25:57] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:25:57] Connection from 172.16.109.102:28825 - GET / HTTP/1.1
+[HTTP] [2026-02-09 12:25:57] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[FTP] [2026-02-09 12:26:17] Stopped
+[12:26:17 PM] [SYSTEM] Stopped FTP service
+[FTP] [2026-02-09 12:26:20] Started on port 21
+[12:26:20 PM] [SYSTEM] Started FTP on port 21
+[FTP] [2026-02-09 12:26:29] Connection from 172.16.109.102:49674
+[HTTP] [2026-02-09 12:26:35] Connection from 172.16.109.102:49680 - GET / HTTP/1.0
+[HTTP] [2026-02-09 12:26:35] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:26:35] Connection from 172.16.109.102:49719 - GET / HTTP/1.0
+[HTTP] [2026-02-09 12:26:35] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:26:35] Connection from 172.16.109.102:49721 - GET /nmaplowercheck1770620195 HTTP/1.1
+[HTTP] [2026-02-09 12:26:35] Connection from 172.16.109.102:49724 - POST /sdk HTTP/1.1
+[HTTP] [2026-02-09 12:26:35] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:26:35] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:26:35] Connection from 172.16.109.102:49725 - GET /HNAP1 HTTP/1.1
+[HTTP] [2026-02-09 12:26:35] Connection from 172.16.109.102:49728 - GET /nmaplowercheck1770620195 HTTP/1.1
+[HTTP] [2026-02-09 12:26:35] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:26:35] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:26:35] Connection from 172.16.109.102:49729 - GET /evox/about HTTP/1.1
+[HTTP] [2026-02-09 12:26:35] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:26:35] Connection from 172.16.109.102:49730 - GET / HTTP/1.0
+[HTTP] [2026-02-09 12:26:35] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[HTTP] [2026-02-09 12:26:35] Connection from 172.16.109.102:49733 - GET / HTTP/1.1
+[HTTP] [2026-02-09 12:26:35] [SQL Injection] 172.16.109.102 - Suspicious payload detected
+[FTP] [2026-02-09 12:26:46] Connection from 172.16.109.102:49739
+[FTP] [2026-02-09 12:26:46] Command from 172.16.109.102: OPTS UTF8 ON
+[FTP] [2026-02-09 12:26:54] Command from 172.16.109.102: USER anonumus
+[FTP] [2026-02-09 12:26:54] Username attempt from 172.16.109.102: anonumus
+[FTP] [2026-02-09 12:26:57] Command from 172.16.109.102: PASS 123
+[FTP] [2026-02-09 12:26:57] Password attempt from 172.16.109.102: 123
+[FTP] [2026-02-09 12:26:57] Anonymous login from 172.16.109.102
+[FTP] [2026-02-09 12:26:59] Command from 172.16.109.102: PORT 172,16,109,102,8,187
+[FTP] [2026-02-09 12:26:59] Command from 172.16.109.102: NLST
+[FTP] [2026-02-09 12:26:59] File listing requested from 172.16.109.102
+[HTTP] [2026-02-09 12:33:12] Stopped
+[12:33:12 PM] [SYSTEM] Initiating Stop All sequence...
+[HTTP] [2026-02-09 12:33:12] Stopped
+[12:33:12 PM] [SYSTEM] Stopped HTTP service
+[FTP] [2026-02-09 12:33:13] Stopped
+[FTP] [2026-02-09 12:33:13] Stopped
+[12:33:13 PM] [SYSTEM] Stopped FTP service
+[12:33:13 PM] [SYSTEM] Stopped SSH service
+[12:35:30 PM] [SYSTEM] Connected to Network Monitor System
+[HTTP] [2026-02-09 12:35:48] Started on port 8080
+[12:35:45 PM] [SYSTEM] Started HTTP on port 8080
+[HTTP] [2026-02-09 12:35:49] Stopped
+[HTTP] [2026-02-09 12:35:49] Stopped
+[12:35:47 PM] [SYSTEM] Stopped HTTP service
+[12:36:04 PM] [SYSTEM] Connected to Network Monitor System
+[HTTP] [2026-02-09 12:36:09] Started on port 8080
+[12:36:06 PM] [SYSTEM] Started HTTP on port 8080
+[HTTP] [2026-02-09 12:36:10] Stopped
+[HTTP] [2026-02-09 12:36:10] Stopped
+[12:36:07 PM] [SYSTEM] Stopped HTTP service
+[12:36:10 PM] [SYSTEM] Connected to Network Monitor System
+[HTTP] [2026-02-09 12:36:11] Started on port 8080
+[12:36:08 PM] [SYSTEM] Started HTTP on port 8080
+[HTTP] [2026-02-09 12:36:11] Stopped
+[HTTP] [2026-02-09 12:36:11] Stopped
+[12:36:09 PM] [SYSTEM] Stopped HTTP service
+[1:16:26 PM] [SYSTEM] Connected to Network Monitor System
+[3:58:49 PM] [SYSTEM] Connected to Network Monitor System
+[4:00:26 PM] [SYSTEM] Connected to Network Monitor System
+[4:01:46 PM] [SYSTEM] Connected to Network Monitor System
+[4:05:13 PM] [SYSTEM] Connected to Network Monitor System
+[4:09:21 PM] [SYSTEM] Connected to Network Monitor System
+[4:09:42 PM] [SYSTEM] Connected to Network Monitor System
+[9:42:34 AM] [SYSTEM] Connected to Network Monitor System
+[9:43:18 AM] [SYSTEM] Connection Lost - System Offline
+[9:43:29 AM] [SYSTEM] Connected to Network Monitor System
+[9:45:52 AM] [SYSTEM] Uploaded HTML file: index.html
+[9:46:13 AM] [SYSTEM] Uploaded FTP file: allocation.pdf
+[HTTP] [2026-02-17 09:46:17] Started on port 80
+[9:46:17 AM] [SYSTEM] Started HTTP on port 80
+[FTP] [2026-02-17 09:46:18] Started on port 21
+[9:46:18 AM] [SYSTEM] Started FTP on port 21
+[FTP] [2026-02-17 09:47:48] Connection from 172.16.107.181:39434
+[HTTP] [2026-02-17 09:47:54] Connection from 172.16.107.181:53092 - GET / HTTP/1.0
+[HTTP] [2026-02-17 09:47:54] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 09:47:54] Connection from 172.16.107.181:44134 - GET /nmaplowercheck1771301873 HTTP/1.1
+[HTTP] [2026-02-17 09:47:54] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 09:47:54] Connection from 172.16.107.181:44142 - POST /sdk HTTP/1.1
+[HTTP] [2026-02-17 09:47:54] Connection from 172.16.107.181:44146 - GET / HTTP/1.0
+[HTTP] [2026-02-17 09:47:54] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 09:47:54] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 09:47:54] Connection from 172.16.107.181:44162 - GET /evox/about HTTP/1.1
+[HTTP] [2026-02-17 09:47:54] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 09:47:54] Connection from 172.16.107.181:44166 - GET /nmaplowercheck1771301873 HTTP/1.1
+[HTTP] [2026-02-17 09:47:54] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 09:47:54] Connection from 172.16.107.181:44170 - GET /HNAP1 HTTP/1.1
+[HTTP] [2026-02-17 09:47:54] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 09:47:55] Connection from 172.16.107.181:44178 - GET / HTTP/1.0
+[HTTP] [2026-02-17 09:47:55] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 09:47:55] Connection from 172.16.107.181:44182 - GET / HTTP/1.1
+[HTTP] [2026-02-17 09:47:55] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 09:49:10] Connection from 172.16.107.181:52310 - GET / HTTP/1.1
+[HTTP] [2026-02-17 09:49:10] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[FTP] [2026-02-17 09:49:44] Connection from 172.16.107.181:40106
+[FTP] [2026-02-17 09:51:20] Connection from 172.16.107.181:51246
+[FTP] [2026-02-17 09:51:33] Command from 172.16.107.181: USER anonymous
+[FTP] [2026-02-17 09:51:33] Username attempt from 172.16.107.181: anonymous
+[FTP] [2026-02-17 09:51:38] Command from 172.16.107.181: PASS 1234
+[FTP] [2026-02-17 09:51:38] Password attempt from 172.16.107.181: 1234
+[FTP] [2026-02-17 09:51:38] Anonymous login from 172.16.107.181
+[FTP] [2026-02-17 09:51:38] Command from 172.16.107.181: SYST
+[FTP] [2026-02-17 09:51:38] Command from 172.16.107.181: FEAT
+[FTP] [2026-02-17 09:51:43] Command from 172.16.107.181: EPSV
+[FTP] [2026-02-17 09:51:43] Command from 172.16.107.181: PASV
+[FTP] [2026-02-17 09:51:58] Command from 172.16.107.181: PASV
+[FTP] [2026-02-17 09:53:44] Connection from 172.16.107.181:35310
+[FTP] [2026-02-17 09:53:50] Command from 172.16.107.181: USER anonymous
+[FTP] [2026-02-17 09:53:50] Username attempt from 172.16.107.181: anonymous
+[FTP] [2026-02-17 09:53:52] Command from 172.16.107.181: PASS 1234
+[FTP] [2026-02-17 09:53:52] Password attempt from 172.16.107.181: 1234
+[FTP] [2026-02-17 09:53:52] Anonymous login from 172.16.107.181
+[FTP] [2026-02-17 09:53:52] Command from 172.16.107.181: SYST
+[FTP] [2026-02-17 09:53:52] Command from 172.16.107.181: FEAT
+[FTP] [2026-02-17 09:54:05] Command from 172.16.107.181: EPRT |1|172.16.107.181|41745|
+[FTP] [2026-02-17 09:54:05] Command from 172.16.107.181: PORT 172,16,107,181,163,17
+[9:54:24 AM] [SYSTEM] Connected to Network Monitor System
+[FTP] [2026-02-17 09:57:51] Connection from 172.16.107.181:55882
+[FTP] [2026-02-17 09:57:56] Command from 172.16.107.181: USER anonymous
+[FTP] [2026-02-17 09:57:56] Username attempt from 172.16.107.181: anonymous
+[FTP] [2026-02-17 09:57:59] Command from 172.16.107.181: PASS asdasd
+[FTP] [2026-02-17 09:57:59] Password attempt from 172.16.107.181: asdasd
+[FTP] [2026-02-17 09:57:59] Anonymous login from 172.16.107.181
+[FTP] [2026-02-17 09:57:59] Command from 172.16.107.181: SYST
+[FTP] [2026-02-17 09:57:59] Command from 172.16.107.181: FEAT
+[FTP] [2026-02-17 09:58:01] Command from 172.16.107.181: EPSV
+[FTP] [2026-02-17 09:58:01] Command from 172.16.107.181: PASV
+[FTP] [2026-02-17 09:58:17] Command from 172.16.107.181: PORT 172,16,107,181,153,13
+[HTTP] [2026-02-17 10:00:40] Stopped
+[10:00:40 AM] [SYSTEM] Stopped HTTP service
+[FTP] [2026-02-17 10:00:41] Stopped
+[FTP] [2026-02-17 10:00:41] Stopped
+[10:00:41 AM] [SYSTEM] Stopped FTP service
+[10:00:55 AM] [SYSTEM] Uploaded FTP file: allocation.pdf
+[10:01:02 AM] [SYSTEM] Uploaded HTML file: index.html
+[HTTP] [2026-02-17 10:01:04] Started on port 80
+[10:01:04 AM] [SYSTEM] Started HTTP on port 80
+[FTP] [2026-02-17 10:01:05] Started on port 21
+[10:01:05 AM] [SYSTEM] Started FTP on port 21
+[FTP] [2026-02-17 10:01:12] Connection from 172.16.107.181:42984
+[HTTP] [2026-02-17 10:01:18] Connection from 172.16.107.181:48556 - GET / HTTP/1.0
+[HTTP] [2026-02-17 10:01:18] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 10:01:18] Connection from 172.16.107.181:48562 - GET /nmaplowercheck1771302678 HTTP/1.1
+[HTTP] [2026-02-17 10:01:18] Connection from 172.16.107.181:48582 - POST /sdk HTTP/1.1
+[HTTP] [2026-02-17 10:01:18] Connection from 172.16.107.181:48574 - GET / HTTP/1.0
+[HTTP] [2026-02-17 10:01:18] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 10:01:18] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 10:01:18] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 10:01:18] Connection from 172.16.107.181:48598 - GET /HNAP1 HTTP/1.1
+[HTTP] [2026-02-17 10:01:18] Connection from 172.16.107.181:48600 - GET /nmaplowercheck1771302678 HTTP/1.1
+[HTTP] [2026-02-17 10:01:18] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 10:01:18] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 10:01:19] Connection from 172.16.107.181:48614 - GET /evox/about HTTP/1.1
+[HTTP] [2026-02-17 10:01:19] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 10:01:19] Connection from 172.16.107.181:48616 - GET / HTTP/1.0
+[HTTP] [2026-02-17 10:01:19] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[HTTP] [2026-02-17 10:01:19] Connection from 172.16.107.181:48632 - GET / HTTP/1.1
+[HTTP] [2026-02-17 10:01:19] [SQL Injection] 172.16.107.181 - Suspicious payload detected
+[FTP] [2026-02-17 10:04:02] Connection from 172.16.107.181:35800
+[FTP] [2026-02-17 10:04:08] Command from 172.16.107.181: USER anonymous
+[FTP] [2026-02-17 10:04:08] Username attempt from 172.16.107.181: anonymous
+[FTP] [2026-02-17 10:04:09] Command from 172.16.107.181: PASS sdhfks
+[FTP] [2026-02-17 10:04:09] Password attempt from 172.16.107.181: sdhfks
+[FTP] [2026-02-17 10:04:09] Anonymous login from 172.16.107.181
+[FTP] [2026-02-17 10:04:09] Command from 172.16.107.181: SYST
+[FTP] [2026-02-17 10:04:09] Command from 172.16.107.181: FEAT
+[FTP] [2026-02-17 10:04:12] Command from 172.16.107.181: EPSV
+[FTP] [2026-02-17 10:04:12] Command from 172.16.107.181: PASV
+[FTP] [2026-02-17 10:04:20] Command from 172.16.107.181: PORT 172,16,107,181,222,91
+[10:05:31 AM] [SYSTEM] Connection Lost - System Offline
+[10:05:33 AM] [SYSTEM] Connected to Network Monitor System
+[10:07:25 AM] [SYSTEM] Connection Lost - System Offline
+[10:07:25 AM] [SYSTEM] Connected to Network Monitor System
+[10:07:38 AM] [SYSTEM] Connection Lost - System Offline
+[10:07:39 AM] [SYSTEM] Connected to Network Monitor System
+[10:14:19] [SYSTEM] Connected to Network Monitor System
+[HTTP] [2026-02-17 10:14:39] Started on port 8080
+[10:14:39] [SYSTEM] Started HTTP on port 8080
+[FTP] [2026-02-17 10:14:41] Started on port 2121
+[10:14:41] [SYSTEM] Started FTP on port 2121
+[SSH] [2026-02-17 10:14:42] Started on port 2222
+[10:14:42] [SYSTEM] Started SSH on port 2222
+[SSH] [2026-02-17 10:14:48] Stopped
+[SSH] [2026-02-17 10:14:48] Stopped
+[10:14:48 AM] [SYSTEM] Stopped SSH service
+[FTP] [2026-02-17 10:14:52] Stopped
+[FTP] [2026-02-17 10:14:52] Stopped
+[10:14:51] [SYSTEM] Stopped FTP service
+[HTTP] [2026-02-17 10:14:55] Stopped
+[HTTP] [2026-02-17 10:14:55] Stopped
+[10:14:55] [SYSTEM] Stopped HTTP service
+[FTP] [2026-02-17 10:15:01] Started on port 2121
+[10:15:01] [SYSTEM] Started FTP on port 2121
+[FTP] [2026-02-17 10:15:03] Stopped
+[FTP] [2026-02-17 10:15:03] Stopped
+[10:15:03 AM] [SYSTEM] Stopped FTP service
+[10:15:03] [SYSTEM] Initiating Start All sequence...
+[HTTP] [2026-02-17 10:15:04] Started on port 8080
+[10:15:04] [SYSTEM] Started HTTP on port 8080
+[FTP] [2026-02-17 10:15:05] Started on port 2121
+[10:15:04] [SYSTEM] Started FTP on port 2121
+[SSH] [2026-02-17 10:15:05] Started on port 2222
+[10:15:05] [SYSTEM] Started SSH on port 2222
+[HTTP] [2026-02-17 10:15:14] Connection from 172.16.101.165:62507 - GET / HTTP/1.1
+[HTTP] [2026-02-17 10:15:14] [Command Injection] 172.16.101.165 - Suspicious payload detected
+[HTTP] [2026-02-17 10:15:14] Connection from 172.16.101.165:62506 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-17 10:15:14] [Command Injection] 172.16.101.165 - Suspicious payload detected
+[HTTP] [2026-02-17 10:15:34] Connection from 172.16.101.165:62533 - POST /register HTTP/1.1
+[HTTP] [2026-02-17 10:15:34] [Command Injection] 172.16.101.165 - Username: viral, Password: 6355
+[HTTP] [2026-02-17 10:15:34] Connection from 172.16.101.165:62532 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-17 10:15:34] [Command Injection] 172.16.101.165 - Suspicious payload detected
+[HTTP] [2026-02-17 10:15:40] Connection from 172.16.101.165:62534 - POST /login HTTP/1.1
+[HTTP] [2026-02-17 10:15:40] [Command Injection] 172.16.101.165 - Username: viral, Password: 6355username=viral
+[HTTP] [2026-02-17 10:15:40] Connection from 172.16.101.165:62561 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-17 10:15:40] [Command Injection] 172.16.101.165 - Suspicious payload detected
+[HTTP] [2026-02-17 10:15:48] Connection from 172.16.101.165:62615 - POST /login HTTP/1.1
+[HTTP] [2026-02-17 10:15:48] [Command Injection] 172.16.101.165 - Username: viral, Password: 6355username=viral
+[HTTP] [2026-02-17 10:15:48] Connection from 172.16.101.165:62614 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-17 10:15:48] [Command Injection] 172.16.101.165 - Suspicious payload detected
+[HTTP] [2026-02-17 10:17:31] Stopped
+[10:17:31 AM] [SYSTEM] Stopped HTTP service
+[10:17:38 AM] [SYSTEM] Connected to Network Monitor System
+[FTP] [2026-02-17 10:17:41] Stopped
+[FTP] [2026-02-17 10:17:41] Stopped
+[10:17:41 AM] [SYSTEM] Stopped FTP service
+[SSH] [2026-02-17 10:17:41] Stopped
+[SSH] [2026-02-17 10:17:41] Stopped
+[10:17:42 AM] [SYSTEM] Stopped SSH service
+[HTTP] [2026-02-17 10:17:47] Started on port 8080
+[10:17:47 AM] [SYSTEM] Started HTTP on port 8080
+[FTP] [2026-02-17 10:17:48] Started on port 2121
+[10:17:48 AM] [SYSTEM] Started FTP on port 2121
+[HTTP] [2026-02-17 10:18:05] Connection from 172.16.101.165:36995 - GET / HTTP/1.1
+[HTTP] [2026-02-17 10:18:05] [Command Injection] 172.16.101.165 - Suspicious payload detected
+[HTTP] [2026-02-17 10:18:05] Connection from 172.16.101.165:1455 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-17 10:18:05] [Command Injection] 172.16.101.165 - Suspicious payload detected
+[HTTP] [2026-02-17 10:18:26] Connection from 172.16.101.165:53517 - POST /login HTTP/1.1
+[HTTP] [2026-02-17 10:18:26] [Command Injection] 172.16.101.165 - Username: hell, Password: sdfksdjfusername=hell
+[HTTP] [2026-02-17 10:18:26] Connection from 172.16.101.165:54571 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-17 10:18:26] [Command Injection] 172.16.101.165 - Suspicious payload detected
+[10:24:59 AM] [SYSTEM] Connected to Network Monitor System
+[HTTP] [2026-02-17 10:34:32] Connection from 172.16.101.165:63325 - GET / HTTP/1.1
+[HTTP] [2026-02-17 10:34:32] [Command Injection] 172.16.101.165 - Suspicious payload detected
+[HTTP] [2026-02-17 10:34:32] Connection from 172.16.101.165:63326 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-17 10:34:32] [Command Injection] 172.16.101.165 - Suspicious payload detected
+[HTTP] [2026-02-17 10:34:52] Connection from 172.16.101.165:63345 - POST /login HTTP/1.1
+[HTTP] [2026-02-17 10:34:52] [Command Injection] 172.16.101.165 - Username: admin, Password: defefusername=admin
+[HTTP] [2026-02-17 10:34:52] Connection from 172.16.101.165:63346 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-17 10:34:53] [Command Injection] 172.16.101.165 - Suspicious payload detected
+[10:36:04 AM] [SYSTEM] Connected to Network Monitor System
+[11:18:59 PM] [SYSTEM] Connected to Network Monitor System
+[HTTP] [2026-02-17 23:19:02] Started on port 8080
+[11:19:02 PM] [SYSTEM] Started HTTP on port 8080
+[11:19:12 PM] [SYSTEM] Uploaded FTP file: Assignment - I CPD.docx.pdf
+[FTP] [2026-02-17 23:19:13] Started on port 2121
+[11:19:13 PM] [SYSTEM] Started FTP on port 2121
+[SSH] [2026-02-17 23:19:14] Started on port 2222
+[11:19:14 PM] [SYSTEM] Started SSH on port 2222
+[FTP] [2026-02-17 23:19:17] Stopped
+[FTP] [2026-02-17 23:19:17] Stopped
+[11:19:17 PM] [SYSTEM] Stopped FTP service
+[FTP] [2026-02-17 23:19:21] Started on port 21
+[11:19:21 PM] [SYSTEM] Started FTP on port 21
+[FTP] [2026-02-17 23:28:50] Connection from 10.29.255.106:8719
+[SSH] [2026-02-17 23:28:50] Connection from 10.29.255.106:8723
+[HTTP] [2026-02-17 23:28:56] Connection from 10.29.255.106:8725 - GET / HTTP/1.0
+[HTTP] [2026-02-17 23:28:56] Connection from 10.29.255.106:8758 - GET /nmaplowercheck1771351136 HTTP/1.1
+[HTTP] [2026-02-17 23:28:56] Connection from 10.29.255.106:8759 - GET / HTTP/1.0
+[HTTP] [2026-02-17 23:28:56] Connection from 10.29.255.106:8761 - POST /sdk HTTP/1.1
+[HTTP] [2026-02-17 23:28:56] [Command Injection] Attacker IP: 10.29.255.106 - Suspicious payload detected
+[HTTP] [2026-02-17 23:28:56] Connection from 10.29.255.106:8763 - GET /HNAP1 HTTP/1.1
+[HTTP] [2026-02-17 23:28:56] Connection from 10.29.255.106:8765 - GET /nmaplowercheck1771351136 HTTP/1.1
+[HTTP] [2026-02-17 23:28:56] Connection from 10.29.255.106:8767 - GET /evox/about HTTP/1.1
+[HTTP] [2026-02-17 23:28:56] Connection from 10.29.255.106:8769 - GET / HTTP/1.0
+[HTTP] [2026-02-17 23:28:56] Connection from 10.29.255.106:8771 - GET / HTTP/1.1
+[HTTP] [2026-02-17 23:30:25] Connection from 10.29.255.106:28563 - GET / HTTP/1.1
+[HTTP] [2026-02-17 23:30:25] [Command Injection] Attacker IP: 10.29.255.106 - Suspicious payload detected
+[HTTP] [2026-02-17 23:30:26] Connection from 10.29.255.106:18425 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-17 23:30:26] [Command Injection] Attacker IP: 10.29.255.106 - Suspicious payload detected
+[HTTP] [2026-02-17 23:30:39] Connection from 10.29.255.106:48055 - POST /login HTTP/1.1
+[HTTP] [2026-02-17 23:30:39] [Command Injection] Attacker IP: 10.29.255.106 - Username: fgf, Password: dfgd
+[HTTP] [2026-02-17 23:30:39] Connection from 10.29.255.106:8878 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-17 23:30:39] [Command Injection] Attacker IP: 10.29.255.106 - Suspicious payload detected
+[FTP] [2026-02-17 23:31:15] Connection from 10.29.255.106:28800
+[FTP] [2026-02-17 23:31:15] Command from 10.29.255.106: OPTS UTF8 ON
+[FTP] [2026-02-17 23:31:23] Command from 10.29.255.106: USER anonumous
+[FTP] [2026-02-17 23:31:23] Username attempt from 10.29.255.106: anonumous
+[FTP] [2026-02-17 23:31:25] Command from 10.29.255.106: PASS 1234
+[FTP] [2026-02-17 23:31:25] Password attempt from 10.29.255.106: 1234
+[FTP] [2026-02-17 23:31:25] Anonymous login from 10.29.255.106
+[FTP] [2026-02-17 23:31:30] Command from 10.29.255.106: PORT 10,29,255,106,239,75
+[FTP] [2026-02-17 23:31:30] Command from 10.29.255.106: NLST
+[FTP] [2026-02-17 23:31:30] File listing requested from 10.29.255.106
+[FTP] [2026-02-17 23:35:32] Connection from 10.29.255.106:5707
+[FTP] [2026-02-17 23:35:32] Command from 10.29.255.106: OPTS UTF8 ON
+[FTP] [2026-02-17 23:35:41] Command from 10.29.255.106: USER anonumous
+[FTP] [2026-02-17 23:35:41] Username attempt from 10.29.255.106: anonumous
+[FTP] [2026-02-17 23:35:43] Command from 10.29.255.106: PASS 1231
+[FTP] [2026-02-17 23:35:43] Password attempt from 10.29.255.106: 1231
+[FTP] [2026-02-17 23:35:43] Anonymous login from 10.29.255.106
+[FTP] [2026-02-17 23:35:46] Command from 10.29.255.106: PORT 10,29,255,106,134,153
+[FTP] [2026-02-17 23:35:46] Command from 10.29.255.106: NLST
+[FTP] [2026-02-17 23:35:46] File listing requested from 10.29.255.106
+[11:39:40 PM] [SYSTEM] Connection Lost - System Offline
+[11:39:42 PM] [SYSTEM] Connected to Network Monitor System
+[11:39:42 PM] [SYSTEM] Connection Lost - System Offline
+[11:39:44 PM] [SYSTEM] Connected to Network Monitor System
+[11:42:24 PM] [SYSTEM] Stopped HTTP service
+[11:42:25 PM] [SYSTEM] Stopped FTP service
+[11:42:26 PM] [SYSTEM] Stopped SSH service
+[11:42:29 PM] [SYSTEM] Connected to Network Monitor System
+[11:42:46 PM] [SYSTEM] Uploaded FTP file: Assignment - I CPD.docx.pdf
+[FTP] [2026-02-17 23:42:46] Started on port 21
+[11:42:46 PM] [SYSTEM] Started FTP on port 21
+[HTTP] [2026-02-17 23:42:47] Started on port 80
+[11:42:47 PM] [SYSTEM] Started HTTP on port 80
+[SSH] [2026-02-17 23:42:48] Started on port 22
+[11:42:48 PM] [SYSTEM] Started SSH on port 22
+[FTP] [2026-02-17 23:42:59] Connection from 10.29.255.106:4344
+[SSH] [2026-02-17 23:42:59] Connection from 10.29.255.106:4345
+[HTTP] [2026-02-17 23:43:05] Connection from 10.29.255.106:4346 - GET / HTTP/1.0
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4388 - GET /nmaplowercheck1771351988 HTTP/1.1
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4389 - POST / HTTP/1.1
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4395 - GET /.git/HEAD HTTP/1.1
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4397 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4387 - GET / HTTP/1.1
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4396 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:43:08] [Command Injection] Attacker IP: 10.29.255.106 - Suspicious payload detected
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4407 - GET / HTTP/1.0
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4403 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4404 - GET /evox/about HTTP/1.1
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4405 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4406 - PROPFIND / HTTP/1.1
+[FTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4410
+[SSH] [2026-02-17 23:43:08] Connection from 10.29.255.106:4412
+[FTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4411
+[SSH] [2026-02-17 23:43:08] Connection from 10.29.255.106:4413
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4418 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4409 - GET / HTTP/1.1
+1.1
+[HTTP] [2026-02-17 23:43:08] [Command Injection] Attacker IP: 10.29.255.106 - Suspicious payload detected
+[FTP] [2026-02-17 23:43:08] Command from 10.29.255.106: USER anonymous
+[SSH] [2026-02-17 23:43:08] Client banner from 10.29.255.106: SSH-1.5-NmapNSE_1.0
+[SSH] [2026-02-17 23:43:08] Client banner from 10.29.255.106: SSH-1.5-Nmap-SSH1-Hostkey
+[SSH] [2026-02-17 23:43:08] SSH negotiation attempt from 10.29.255.106
+[FTP] [2026-02-17 23:43:08] Username attempt from 10.29.255.106: anonymous
+[SSH] [2026-02-17 23:43:08] SSH negotiation attempt from 10.29.255.106
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4421 - GET /nmaplowercheck1771351988 HTTP/1.1
+[SSH] [2026-02-17 23:43:08] Connection from 10.29.255.106:4425
+[FTP] [2026-02-17 23:43:08] Command from 10.29.255.106: PASS IEUser@
+[FTP] [2026-02-17 23:43:08] Command from 10.29.255.106: STAT
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4422 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4424 - PROPFIND / HTTP/1.1
+[FTP] [2026-02-17 23:43:08] Password attempt from 10.29.255.106: IEUser@
+[FTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4431
+[FTP] [2026-02-17 23:43:08] Anonymous login from 10.29.255.106
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4426 - CUCS / HTTP/1.1
+[HTTP] [2026-02-17 23:43:08] Connection from 10.29.255.106:4429 - GET /robots.txt HTTP/1.1
+[FTP] [2026-02-17 23:43:09] Command from 10.29.255.106: PORT 45,33,32,156,80,80
+[FTP] [2026-02-17 23:43:09] Command from 10.29.255.106: QUIT
+[SSH] [2026-02-17 23:43:09] Client banner from 10.29.255.106: SSH-2.0-Nmap-SSH2-Hostkey
+[FTP] [2026-02-17 23:43:09] Command from 10.29.255.106: AUTH TLS
+[HTTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4433 - GET / HTTP/1.1
+[HTTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4435 - POST /sdk HTTP/1.1
+[SSH] [2026-02-17 23:43:09] SSH negotiation attempt from 10.29.255.106
+[HTTP] [2026-02-17 23:43:09] [Command Injection] Attacker IP: 10.29.255.106 - Suspicious payload detected
+[HTTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4438 - GET /HNAP1 HTTP/1.1
+[FTP] [2026-02-17 23:43:09] Command from 10.29.255.106: QUIT
+[HTTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4440 - OPTIONS / HTTP/1.1
+[FTP] [2026-02-17 23:43:09] Command from 10.29.255.106: QUIT
+[FTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4444
+[SSH] [2026-02-17 23:43:09] Connection from 10.29.255.106:4445
+[HTTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4442 - GET / HTTP/1.1
+[FTP] [2026-02-17 23:43:09] Command from 10.29.255.106: USER anonymous
+[FTP] [2026-02-17 23:43:09] Username attempt from 10.29.255.106: anonymous
+[SSH] [2026-02-17 23:43:09] Client banner from 10.29.255.106: SSH-2.0-Nmap-SSH2-Hostkey
+[HTTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4448 - GET / HTTP/1.1
+[SSH] [2026-02-17 23:43:09] SSH negotiation attempt from 10.29.255.106
+[FTP] [2026-02-17 23:43:09] Command from 10.29.255.106: PASS IEUser@
+[HTTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4449 - OPTIONS / HTTP/1.1
+[FTP] [2026-02-17 23:43:09] Password attempt from 10.29.255.106: IEUser@
+[FTP] [2026-02-17 23:43:09] Anonymous login from 10.29.255.106
+[HTTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4451 - HEAD / HTTP/1.1
+[FTP] [2026-02-17 23:43:09] Command from 10.29.255.106: PASV
+[SSH] [2026-02-17 23:43:09] Connection from 10.29.255.106:4452
+[FTP] [2026-02-17 23:43:09] Command from 10.29.255.106: QUIT
+[HTTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4453 - OPTIONS / HTTP/1.1
+[SSH] [2026-02-17 23:43:09] Client banner from 10.29.255.106: SSH-2.0-Nmap-SSH2-Hostkey
+[HTTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4455 - GET / HTTP/1.1
+[SSH] [2026-02-17 23:43:09] SSH negotiation attempt from 10.29.255.106
+[HTTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4456 - POST / HTTP/1.1
+[SSH] [2026-02-17 23:43:09] Connection from 10.29.255.106:4459
+[HTTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4458 - OPTIONS / HTTP/1.1
+[SSH] [2026-02-17 23:43:09] Client banner from 10.29.255.106: SSH-2.0-Nmap-SSH2-Hostkey
+[HTTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4460 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:43:09] Connection from 10.29.255.106:4461 - GET / HTTP/1.1
+[SSH] [2026-02-17 23:43:09] SSH negotiation attempt from 10.29.255.106
+[HTTP] [2026-02-17 23:43:10] Connection from 10.29.255.106:4463 - OPTIONS / HTTP/1.1
+[SSH] [2026-02-17 23:43:10] Connection from 10.29.255.106:4464
+[SSH] [2026-02-17 23:43:10] Client banner from 10.29.255.106: SSH-2.0-Nmap-SSH2-Hostkey
+[HTTP] [2026-02-17 23:43:10] Connection from 10.29.255.106:4466 - GET / HTTP/1.1
+[SSH] [2026-02-17 23:43:10] SSH negotiation attempt from 10.29.255.106
+[HTTP] [2026-02-17 23:43:10] Connection from 10.29.255.106:4467 - OPTIONS / HTTP/1.1
+[SSH] [2026-02-17 23:43:10] Connection from 10.29.255.106:4468
+[SSH] [2026-02-17 23:43:10] Client banner from 10.29.255.106: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-17 23:43:10] SSH negotiation attempt from 10.29.255.106
+[FTP] [2026-02-17 23:43:22] Connection from 10.29.255.106:4478
+[HTTP] [2026-02-17 23:43:22] Connection from 10.29.255.106:4476 - GET / HTTP/1.0
+[FTP] [2026-02-17 23:43:22] Command from 10.29.255.106: AUTH TLS
+[FTP] [2026-02-17 23:43:22] Command from 10.29.255.106: QUIT
+[HTTP] [2026-02-17 23:43:22] Connection from 10.29.255.106:4479 - GET / HTTP/1.1
+[FTP] [2026-02-17 23:43:22] Connection from 10.29.255.106:4481
+[FTP] [2026-02-17 23:43:22] Error in command loop: [WinError 10054] An existing connection was forcibly closed by the remote host
+[FTP] [2026-02-17 23:43:22] Connection from 10.29.255.106:4482
+[FTP] [2026-02-17 23:43:22] Error in command loop: [WinError 10053] An established connection was aborted by the software in your host machine
+[FTP] [2026-02-17 23:43:22] Connection from 10.29.255.106:4483
+[FTP] [2026-02-17 23:43:22] Command from 10.29.255.106: AUTH TLS
+[FTP] [2026-02-17 23:43:22] Command from 10.29.255.106: QUIT
+[FTP] [2026-02-17 23:43:22] Connection from 10.29.255.106:4484
+[FTP] [2026-02-17 23:43:22] Error in command loop: [WinError 10054] An existing connection was forcibly closed by the remote host
+[FTP] [2026-02-17 23:43:22] Connection from 10.29.255.106:4485
+[FTP] [2026-02-17 23:43:22] Error in command loop: [WinError 10054] An existing connection was forcibly closed by the remote host
+[FTP] [2026-02-17 23:44:10] Connection from 10.29.255.106:31535
+[FTP] [2026-02-17 23:44:10] Command from 10.29.255.106: OPTS UTF8 ON
+[FTP] [2026-02-17 23:44:14] Command from 10.29.255.106: USER Anonymous
+[FTP] [2026-02-17 23:44:14] Username attempt from 10.29.255.106: Anonymous
+[FTP] [2026-02-17 23:44:20] Command from 10.29.255.106: PASS shshf
+[FTP] [2026-02-17 23:44:20] Password attempt from 10.29.255.106: shshf
+[FTP] [2026-02-17 23:44:20] Anonymous login from 10.29.255.106
+[FTP] [2026-02-17 23:44:24] Command from 10.29.255.106: PORT 10,29,255,106,123,49
+[FTP] [2026-02-17 23:44:25] Command from 10.29.255.106: NLST
+[FTP] [2026-02-17 23:44:25] File listing requested from 10.29.255.106
+[SSH] [2026-02-17 23:48:51] Connection from 10.29.255.106:49796
+[SSH] [2026-02-17 23:48:51] Client banner from 10.29.255.106: SSH-2.0-OpenSSH_for_Windows_9.5
+[SSH] [2026-02-17 23:48:51] SSH negotiation attempt from 10.29.255.106
+[SSH] [2026-02-17 23:48:56] Connection from 10.29.255.106:14137
+[SSH] [2026-02-17 23:48:56] Client banner from 10.29.255.106: SSH-2.0-OpenSSH_for_Windows_9.5
+[SSH] [2026-02-17 23:48:56] SSH negotiation attempt from 10.29.255.106
+[FTP] [2026-02-17 23:50:49] Connection from 10.29.255.69:45756
+[SSH] [2026-02-17 23:50:49] Connection from 10.29.255.69:45757
+[HTTP] [2026-02-17 23:50:55] Connection from 10.29.255.69:45758 - GET / HTTP/1.0
+[SSH] [2026-02-17 23:51:00] Connection from 10.29.255.69:45764
+[FTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45773
+[FTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45778
+[FTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45779
+[HTTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45761 - GET / HTTP/1.1
+[HTTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45767 - POST /sdk HTTP/1.1
+[HTTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45777 - POST / HTTP/1.1
+[HTTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45771 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45772 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45776 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45766 - PROPFIND / HTTP/1.1
+[HTTP] [2026-02-17 23:51:00] [Command Injection] Attacker IP: 10.29.255.69 - Suspicious payload detected
+[HTTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45765 - GET /nmaplowercheck1771352462 HTTP/1.1
+[FTP] [2026-02-17 23:51:00] Command from 10.29.255.69: USER anonymous
+[SSH] [2026-02-17 23:51:00] Client banner from 10.29.255.69: SSH-1.5-NmapNSE_1.0
+[FTP] [2026-02-17 23:51:00] Command from 10.29.255.69: USER anonymous
+[HTTP] [2026-02-17 23:51:00] [Command Injection] Attacker IP: 10.29.255.69 - Suspicious payload detected
+[FTP] [2026-02-17 23:51:00] Command from 10.29.255.69: AUTH TLS
+[SSH] [2026-02-17 23:51:00] SSH negotiation attempt from 10.29.255.69
+[FTP] [2026-02-17 23:51:00] Username attempt from 10.29.255.69: anonymous
+[FTP] [2026-02-17 23:51:00] Username attempt from 10.29.255.69: anonymous
+[FTP] [2026-02-17 23:51:00] Command from 10.29.255.69: PASS IEUser@
+[FTP] [2026-02-17 23:51:00] Command from 10.29.255.69: PASS IEUser@
+[FTP] [2026-02-17 23:51:00] Command from 10.29.255.69: QUIT
+[FTP] [2026-02-17 23:51:00] Password attempt from 10.29.255.69: IEUser@
+[FTP] [2026-02-17 23:51:00] Password attempt from 10.29.255.69: IEUser@
+[FTP] [2026-02-17 23:51:00] Anonymous login from 10.29.255.69
+[FTP] [2026-02-17 23:51:00] Anonymous login from 10.29.255.69
+[HTTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45782 - GET /HNAP1 HTTP/1.1
+[HTTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45783 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45784 - PROPFIND / HTTP/1.1
+[HTTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45786 - ZPUQ / HTTP/1.1
+[FTP] [2026-02-17 23:51:00] Connection from 10.29.255.69:45792
+[FTP] [2026-02-17 23:51:01] Command from 10.29.255.69: PASV
+[FTP] [2026-02-17 23:51:01] Command from 10.29.255.69: PORT 45,33,32,156,80,80
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45790 - PROPFIND / HTTP/1.1
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45788 - GET / HTTP/1.1
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45791 - GET /robots.txt HTTP/1.1
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45789 - GET /nmaplowercheck1771352462 HTTP/1.1
+[FTP] [2026-02-17 23:51:01] Command from 10.29.255.69: SYST
+[FTP] [2026-02-17 23:51:01] Command from 10.29.255.69: QUIT
+[FTP] [2026-02-17 23:51:01] Command from 10.29.255.69: QUIT
+[SSH] [2026-02-17 23:51:01] Connection from 10.29.255.69:45804
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45801 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45805 - GET /.git/HEAD HTTP/1.1
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45802 - GET / HTTP/1.1
+[FTP] [2026-02-17 23:51:01] Command from 10.29.255.69: STAT
+[SSH] [2026-02-17 23:51:01] Client banner from 10.29.255.69: SSH-1.5-Nmap-SSH1-Hostkey
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45807 - GET /evox/about HTTP/1.1
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45811 - GET / HTTP/1.0
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45806 - GET /favicon.ico HTTP/1.1
+[SSH] [2026-02-17 23:51:01] SSH negotiation attempt from 10.29.255.69
+[FTP] [2026-02-17 23:51:01] Command from 10.29.255.69: QUIT
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45814 - GET / HTTP/1.1
+[SSH] [2026-02-17 23:51:01] Connection from 10.29.255.69:45820
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45818 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45819 - HEAD / HTTP/1.1
+[SSH] [2026-02-17 23:51:01] Client banner from 10.29.255.69: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-17 23:51:01] SSH negotiation attempt from 10.29.255.69
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45822 - GET / HTTP/1.1
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45823 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45824 - POST / HTTP/1.1
+[SSH] [2026-02-17 23:51:01] Connection from 10.29.255.69:45826
+[SSH] [2026-02-17 23:51:01] Client banner from 10.29.255.69: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-17 23:51:01] SSH negotiation attempt from 10.29.255.69
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45829 - GET / HTTP/1.1
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45827 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:51:01] Connection from 10.29.255.69:45828 - OPTIONS / HTTP/1.1
+[SSH] [2026-02-17 23:51:01] Connection from 10.29.255.69:45831
+[SSH] [2026-02-17 23:51:01] Client banner from 10.29.255.69: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-17 23:51:01] SSH negotiation attempt from 10.29.255.69
+[HTTP] [2026-02-17 23:51:02] Connection from 10.29.255.69:45833 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-17 23:51:02] Connection from 10.29.255.69:45834 - GET / HTTP/1.1
+[SSH] [2026-02-17 23:51:02] Connection from 10.29.255.69:45836
+[SSH] [2026-02-17 23:51:02] Client banner from 10.29.255.69: SSH-2.0-Nmap-SSH2-Hostkey
+[HTTP] [2026-02-17 23:51:02] Connection from 10.29.255.69:45837 - OPTIONS / HTTP/1.1
+[SSH] [2026-02-17 23:51:02] SSH negotiation attempt from 10.29.255.69
+[HTTP] [2026-02-17 23:51:02] Connection from 10.29.255.69:45839 - GET / HTTP/1.1
+[HTTP] [2026-02-17 23:51:02] [Command Injection] Attacker IP: 10.29.255.69 - Suspicious payload detected
+[SSH] [2026-02-17 23:51:02] Connection from 10.29.255.69:45841
+[HTTP] [2026-02-17 23:51:02] Connection from 10.29.255.69:45840 - OPTIONS / HTTP/1.1
+[SSH] [2026-02-17 23:51:02] Client banner from 10.29.255.69: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-17 23:51:02] SSH negotiation attempt from 10.29.255.69
+[SSH] [2026-02-17 23:51:02] Connection from 10.29.255.69:45842
+[SSH] [2026-02-17 23:51:02] Client banner from 10.29.255.69: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-17 23:51:02] SSH negotiation attempt from 10.29.255.69
+[FTP] [2026-02-17 23:51:05] Connection from 10.29.255.69:45845
+[HTTP] [2026-02-17 23:51:05] Connection from 10.29.255.69:45844 - GET / HTTP/1.0
+[FTP] [2026-02-17 23:51:05] Command from 10.29.255.69: AUTH TLS
+[FTP] [2026-02-17 23:51:05] Command from 10.29.255.69: QUIT
+[HTTP] [2026-02-17 23:51:05] Connection from 10.29.255.69:45847 - GET / HTTP/1.1
+[FTP] [2026-02-17 23:51:05] Connection from 10.29.255.69:45849
+[FTP] [2026-02-17 23:51:05] Error in command loop: [WinError 10054] An existing connection was forcibly closed by the remote host
+[FTP] [2026-02-17 23:51:05] Connection from 10.29.255.69:45850
+[FTP] [2026-02-17 23:51:05] Connection from 10.29.255.69:45851
+[FTP] [2026-02-17 23:51:05] Command from 10.29.255.69: AUTH TLS
+[FTP] [2026-02-17 23:51:05] Command from 10.29.255.69: QUIT
+[FTP] [2026-02-17 23:51:05] Connection from 10.29.255.69:45852
+[FTP] [2026-02-17 23:51:05] Error in command loop: [WinError 10054] An existing connection was forcibly closed by the remote host
+[FTP] [2026-02-17 23:51:05] Connection from 10.29.255.69:45853
+[FTP] [2026-02-17 23:51:38] Connection from 10.29.255.69:45857
+[FTP] [2026-02-17 23:51:38] Command from 10.29.255.69: OPTS UTF8 ON
+[FTP] [2026-02-17 23:51:46] Command from 10.29.255.69: USER joker
+[FTP] [2026-02-17 23:51:46] Username attempt from 10.29.255.69: joker
+[FTP] [2026-02-17 23:51:48] Command from 10.29.255.69: PASS 123
+[FTP] [2026-02-17 23:51:48] Password attempt from 10.29.255.69: 123
+[FTP] [2026-02-17 23:51:48] Anonymous login from 10.29.255.69
+[FTP] [2026-02-17 23:51:50] Command from 10.29.255.69: PORT 10,29,255,69,103,6
+[FTP] [2026-02-17 23:51:50] Command from 10.29.255.69: NLST
+[FTP] [2026-02-17 23:51:50] File listing requested from 10.29.255.69
+[FTP] [2026-02-17 23:52:30] Connection from 10.29.255.69:39302
+[FTP] [2026-02-17 23:52:30] Command from 10.29.255.69: OPTS UTF8 ON
+[FTP] [2026-02-17 23:52:37] Command from 10.29.255.69: USER bakajiki
+[FTP] [2026-02-17 23:52:37] Username attempt from 10.29.255.69: bakajiki
+[FTP] [2026-02-17 23:52:40] Command from 10.29.255.69: PASS asdhh
+[FTP] [2026-02-17 23:52:40] Password attempt from 10.29.255.69: asdhh
+[FTP] [2026-02-17 23:52:40] Anonymous login from 10.29.255.69
+[FTP] [2026-02-17 23:52:44] Command from 10.29.255.69: PORT 10,29,255,69,153,136
+[FTP] [2026-02-17 23:52:44] Command from 10.29.255.69: NLST
+[FTP] [2026-02-17 23:52:44] File listing requested from 10.29.255.69
+[11:57:10 PM] [SYSTEM] Connected to Network Monitor System
+[10:21:49 AM] [SYSTEM] Connected to Network Monitor System
+[HTTP] [2026-02-18 10:21:51] Started on port 8080
+[10:21:51 AM] [SYSTEM] Started HTTP on port 8080
+[10:22:00 AM] [SYSTEM] Uploaded FTP file: Assignment - I CPD.docx.pdf
+[FTP] [2026-02-18 10:22:05] Started on port 21
+[10:22:05 AM] [SYSTEM] Started FTP on port 21
+[SSH] [2026-02-18 10:22:06] Started on port 2222
+[10:22:07 AM] [SYSTEM] Started SSH on port 2222
+[SSH] [2026-02-18 10:22:15] Connection from 192.168.50.170:57682
+[FTP] [2026-02-18 10:22:15] Connection from 192.168.50.170:53780
+[HTTP] [2026-02-18 10:22:21] Connection from 192.168.50.170:55446 - GET / HTTP/1.0
+[FTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:41512
+[FTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:41532
+[FTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:41516
+[FTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:41540
+[HTTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:36392 - GET /robots.txt HTTP/1.1
+[HTTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:36434 - GET /nmaplowercheck1771390346 HTTP/1.1
+[HTTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:36406 - GET / HTTP/1.1
+[HTTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:36416 - OPTIONS / HTTP/1.1
+[FTP] [2026-02-18 10:22:27] Command from 192.168.50.170: SYST
+[HTTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:36426 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:36414 - GET / HTTP/1.0
+[FTP] [2026-02-18 10:22:27] Command from 192.168.50.170: AUTH TLS
+[HTTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:36446 - OPTIONS / HTTP/1.1
+[FTP] [2026-02-18 10:22:27] Command from 192.168.50.170: USER anonymous
+[FTP] [2026-02-18 10:22:27] Command from 192.168.50.170: USER anonymous
+[FTP] [2026-02-18 10:22:27] Username attempt from 192.168.50.170: anonymous
+[FTP] [2026-02-18 10:22:27] Username attempt from 192.168.50.170: anonymous
+[SSH] [2026-02-18 10:22:27] Connection from 192.168.50.170:52648
+[FTP] [2026-02-18 10:22:27] Command from 192.168.50.170: QUIT
+[FTP] [2026-02-18 10:22:27] Command from 192.168.50.170: PASS IEUser@
+[FTP] [2026-02-18 10:22:27] Command from 192.168.50.170: STAT
+[FTP] [2026-02-18 10:22:27] Command from 192.168.50.170: PASS IEUser@
+[FTP] [2026-02-18 10:22:27] Password attempt from 192.168.50.170: IEUser@
+[FTP] [2026-02-18 10:22:27] Password attempt from 192.168.50.170: IEUser@
+[FTP] [2026-02-18 10:22:27] Anonymous login from 192.168.50.170
+[FTP] [2026-02-18 10:22:27] Anonymous login from 192.168.50.170
+[SSH] [2026-02-18 10:22:27] Connection from 192.168.50.170:52656
+[HTTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:36494 - HYSR / HTTP/1.1
+[HTTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:36482 - PROPFIND / HTTP/1.1
+[HTTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:36484 - GET /evox/about HTTP/1.1
+[HTTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:36454 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-18 10:22:27] Connection from 192.168.50.170:36470 - OPTIONS / HTTP/1.1
+[SSH] [2026-02-18 10:22:32] Client banner from 192.168.50.170: SSH-1.5-Nmap-SSH1-Hostkey
+[SSH] [2026-02-18 10:22:32] SSH negotiation attempt from 192.168.50.170
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36510 - GET http://www.google.com HTTP/1.0
+[FTP] [2026-02-18 10:22:32] Command from 192.168.50.170: PASV
+[FTP] [2026-02-18 10:22:32] Command from 192.168.50.170: QUIT
+[FTP] [2026-02-18 10:22:32] Command from 192.168.50.170: PORT 45,33,32,156,80,80
+[SSH] [2026-02-18 10:22:32] Client banner from 192.168.50.170: SSH-1.5-NmapNSE_1.0
+[SSH] [2026-02-18 10:22:32] SSH negotiation attempt from 192.168.50.170
+[SSH] [2026-02-18 10:22:32] Connection from 192.168.50.170:52666
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36530 - POST /sdk HTTP/1.1
+[FTP] [2026-02-18 10:22:32] Command from 192.168.50.170: QUIT
+[FTP] [2026-02-18 10:22:32] Command from 192.168.50.170: QUIT
+[HTTP] [2026-02-18 10:22:32] [Command Injection] Attacker IP: 192.168.50.170 - Suspicious payload detected
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36542 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36536 - HEAD http://www.google.com HTTP/1.0
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36548 - GET / HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36562 - PROPFIND / HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36560 - POST / HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] [Command Injection] Attacker IP: 192.168.50.170 - Suspicious payload detected
+[SSH] [2026-02-18 10:22:32] Client banner from 192.168.50.170: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-18 10:22:32] SSH negotiation attempt from 192.168.50.170
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36574 - GET /.git/HEAD HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36578 - GET /nmaplowercheck1771390346 HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36582 - GET / HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36584 - PROPFIND / HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36596 - CONNECT www.google.com:80 HTTP/1.0
+[SSH] [2026-02-18 10:22:32] Connection from 192.168.50.170:52680
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36604 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36620 - HEAD / HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36622 - GET /HNAP1 HTTP/1.1
+[SSH] [2026-02-18 10:22:32] Client banner from 192.168.50.170: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-18 10:22:32] SSH negotiation attempt from 192.168.50.170
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36628 - GET / HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36634 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36636 - POST / HTTP/1.1
+[SSH] [2026-02-18 10:22:32] Connection from 192.168.50.170:52694
+[SSH] [2026-02-18 10:22:32] Client banner from 192.168.50.170: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-18 10:22:32] SSH negotiation attempt from 192.168.50.170
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36648 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36668 - GET / HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36660 - OPTIONS / HTTP/1.1
+[SSH] [2026-02-18 10:22:32] Connection from 192.168.50.170:52700
+[SSH] [2026-02-18 10:22:32] Client banner from 192.168.50.170: SSH-2.0-Nmap-SSH2-Hostkey
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36676 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36688 - GET / HTTP/1.1
+[SSH] [2026-02-18 10:22:32] SSH negotiation attempt from 192.168.50.170
+[SSH] [2026-02-18 10:22:32] Connection from 192.168.50.170:52708
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36694 - OPTIONS / HTTP/1.1
+[SSH] [2026-02-18 10:22:32] Client banner from 192.168.50.170: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-18 10:22:32] SSH negotiation attempt from 192.168.50.170
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36710 - GET / HTTP/1.1
+[HTTP] [2026-02-18 10:22:32] [Command Injection] Attacker IP: 192.168.50.170 - Suspicious payload detected
+[SSH] [2026-02-18 10:22:32] Connection from 192.168.50.170:52712
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36714 - OPTIONS / HTTP/1.1
+[SSH] [2026-02-18 10:22:32] Client banner from 192.168.50.170: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-18 10:22:32] SSH negotiation attempt from 192.168.50.170
+[FTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:41546
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36730 - GET / HTTP/1.0
+[FTP] [2026-02-18 10:22:32] Command from 192.168.50.170: AUTH TLS
+[FTP] [2026-02-18 10:22:32] Command from 192.168.50.170: QUIT
+[HTTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:36734 - GET / HTTP/1.1
+[FTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:41556
+[FTP] [2026-02-18 10:22:32] Error in command loop: [WinError 10054] An existing connection was forcibly closed by the remote host
+[FTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:41572
+[FTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:41576
+[FTP] [2026-02-18 10:22:32] Command from 192.168.50.170: AUTH TLS
+[FTP] [2026-02-18 10:22:32] Command from 192.168.50.170: QUIT
+[FTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:41588
+[FTP] [2026-02-18 10:22:32] Error in command loop: [WinError 10054] An existing connection was forcibly closed by the remote host
+[FTP] [2026-02-18 10:22:32] Connection from 192.168.50.170:41604
+[FTP] [2026-02-18 10:24:19] Connection from 192.168.50.170:37120
+[FTP] [2026-02-18 10:24:26] Command from 192.168.50.170: USER anonumous
+[FTP] [2026-02-18 10:24:26] Username attempt from 192.168.50.170: anonumous
+[FTP] [2026-02-18 10:24:29] Command from 192.168.50.170: PASS 1234
+[FTP] [2026-02-18 10:24:29] Password attempt from 192.168.50.170: 1234
+[FTP] [2026-02-18 10:24:29] Anonymous login from 192.168.50.170
+[FTP] [2026-02-18 10:24:29] Command from 192.168.50.170: SYST
+[FTP] [2026-02-18 10:24:29] Command from 192.168.50.170: FEAT
+[FTP] [2026-02-18 10:24:34] Command from 192.168.50.170: EPSV
+[FTP] [2026-02-18 10:24:34] Command from 192.168.50.170: PASV
+[FTP] [2026-02-18 10:24:47] Command from 192.168.50.170: PASV
+[SSH] [2026-02-18 10:27:51] Connection from 192.168.50.170:47938
+[SSH] [2026-02-18 10:27:51] Client banner from 192.168.50.170: SSH-2.0-OpenSSH_10.2p1 Debian-3
+[SSH] [2026-02-18 10:27:51] SSH negotiation attempt from 192.168.50.170
+[SSH] [2026-02-18 10:27:57] Connection from 192.168.50.170:57772
+[SSH] [2026-02-18 10:27:57] Client banner from 192.168.50.170: SSH-2.0-OpenSSH_10.2p1 Debian-3
+[SSH] [2026-02-18 10:27:57] SSH negotiation attempt from 192.168.50.170
+[SSH] [2026-02-18 10:28:30] Connection from 192.168.50.170:46490
+[SSH] [2026-02-18 10:28:30] Client banner from 192.168.50.170: SSH-2.0-OpenSSH_10.2p1 Debian-3
+[SSH] [2026-02-18 10:28:30] SSH negotiation attempt from 192.168.50.170
+[SSH] [2026-02-18 10:29:33] Connection from 192.168.50.170:58190
+[SSH] [2026-02-18 10:29:33] Client banner from 192.168.50.170: SSH-2.0-OpenSSH_10.2p1 Debian-3
+[SSH] [2026-02-18 10:29:33] SSH negotiation attempt from 192.168.50.170
+[12:30:22 PM] [SYSTEM] Connected to Network Monitor System
+[1:03:38 PM] [SYSTEM] Connection Lost - System Offline
+[1:03:41 PM] [SYSTEM] Connected to Network Monitor System
+[1:15:47 PM] [SYSTEM] Uploaded HTML file: index.html
+[1:16:06 PM] [SYSTEM] Uploaded FTP file: Assignment - I CPD.pdf
+[HTTP] [2026-02-19 13:16:09] Started on port 8080
+[1:16:09 PM] [SYSTEM] Started HTTP on port 8080
+[FTP] [2026-02-19 13:16:10] Started on port 2121
+[1:16:10 PM] [SYSTEM] Started FTP on port 2121
+[SSH] [2026-02-19 13:16:12] Started on port 2222
+[1:16:12 PM] [SYSTEM] Started SSH on port 2222
+[SSH] [2026-02-19 13:22:45] Connection from 192.168.137.101:51235
+[FTP] [2026-02-19 13:22:45] Connection from 192.168.137.101:51234
+[HTTP] [2026-02-19 13:22:51] Connection from 192.168.137.101:51237 - GET / HTTP/1.0
+[SSH] [2026-02-19 13:22:55] Connection from 192.168.137.101:47288
+[FTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47296
+[SSH] [2026-02-19 13:22:55] Connection from 192.168.137.101:47303
+[FTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47304
+[HTTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47289 - GET /nmaplowercheck1771487575 HTTP/1.1
+[HTTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47297 - PROPFIND / HTTP/1.1
+[HTTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47299 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47290 - GET / HTTP/1.1
+[HTTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47298 - GET /.git/HEAD HTTP/1.1
+[HTTP] [2026-02-19 13:22:55] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47305 - GET /robots.txt HTTP/1.1
+[HTTP] [2026-02-19 13:22:55] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:55] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:55] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:55] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:55] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[SSH] [2026-02-19 13:22:55] Client banner from 192.168.137.101: SSH-1.5-NmapNSE_1.0
+[SSH] [2026-02-19 13:22:55] SSH negotiation attempt from 192.168.137.101
+[FTP] [2026-02-19 13:22:55] Command from 192.168.137.101: USER anonymous
+[FTP] [2026-02-19 13:22:55] Username attempt from 192.168.137.101: anonymous
+[SSH] [2026-02-19 13:22:55] Client banner from 192.168.137.101: SSH-1.5-Nmap-SSH1-Hostkey
+[FTP] [2026-02-19 13:22:55] Command from 192.168.137.101: USER anonymous
+[SSH] [2026-02-19 13:22:55] SSH negotiation attempt from 192.168.137.101
+[FTP] [2026-02-19 13:22:55] Username attempt from 192.168.137.101: anonymous
+[SSH] [2026-02-19 13:22:55] Connection from 192.168.137.101:47312
+[FTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47317
+[FTP] [2026-02-19 13:22:55] Command from 192.168.137.101: PASS IEUser@
+[FTP] [2026-02-19 13:22:55] Password attempt from 192.168.137.101: IEUser@
+[FTP] [2026-02-19 13:22:55] Command from 192.168.137.101: PASS IEUser@
+[FTP] [2026-02-19 13:22:55] Anonymous login from 192.168.137.101
+[FTP] [2026-02-19 13:22:55] Password attempt from 192.168.137.101: IEUser@
+[FTP] [2026-02-19 13:22:55] Anonymous login from 192.168.137.101
+[HTTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47309 - GET /HNAP1 HTTP/1.1
+[HTTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47310 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47311 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-19 13:22:55] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:55] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:55] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[FTP] [2026-02-19 13:22:55] Command from 192.168.137.101: PASV
+[FTP] [2026-02-19 13:22:55] Command from 192.168.137.101: PORT 45,33,32,156,80,80
+[SSH] [2026-02-19 13:22:55] Client banner from 192.168.137.101: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-19 13:22:55] SSH negotiation attempt from 192.168.137.101
+[FTP] [2026-02-19 13:22:55] Command from 192.168.137.101: SYST
+[HTTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47318 - GET / HTTP/1.1
+[HTTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47319 - GET /nmaplowercheck1771487575 HTTP/1.1
+[HTTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47321 - GET / HTTP/1.0
+[HTTP] [2026-02-19 13:22:55] Connection from 192.168.137.101:47320 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-19 13:22:55] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:55] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:55] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[FTP] [2026-02-19 13:22:56] Command from 192.168.137.101: QUIT
+[FTP] [2026-02-19 13:22:56] Command from 192.168.137.101: QUIT
+[FTP] [2026-02-19 13:22:56] Command from 192.168.137.101: STAT
+[SSH] [2026-02-19 13:22:56] Connection from 192.168.137.101:47332
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47326 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[FTP] [2026-02-19 13:22:56] Command from 192.168.137.101: QUIT
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47334 - SQRL / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47335 - GET http://www.google.com HTTP/1.0
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47333 - GET /evox/about HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[SSH] [2026-02-19 13:22:56] Client banner from 192.168.137.101: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-19 13:22:56] SSH negotiation attempt from 192.168.137.101
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47341 - POST /sdk HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47340 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47338 - GET / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[FTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47352
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47344 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47346 - HEAD http://www.google.com HTTP/1.0
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47347 - POST / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[SSH] [2026-02-19 13:22:56] Connection from 192.168.137.101:47354
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47353 - PROPFIND / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47351 - GET / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[FTP] [2026-02-19 13:22:56] Command from 192.168.137.101: AUTH TLS
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47355 - PROPFIND / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[SSH] [2026-02-19 13:22:56] Client banner from 192.168.137.101: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-19 13:22:56] SSH negotiation attempt from 192.168.137.101
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47358 - GET / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47359 - CONNECT www.google.com:80 HTTP/1.0
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[FTP] [2026-02-19 13:22:56] Command from 192.168.137.101: QUIT
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47360 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47361 - HEAD / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[SSH] [2026-02-19 13:22:56] Connection from 192.168.137.101:47363
+[SSH] [2026-02-19 13:22:56] Client banner from 192.168.137.101: SSH-2.0-Nmap-SSH2-Hostkey
+[SSH] [2026-02-19 13:22:56] SSH negotiation attempt from 192.168.137.101
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47365 - GET / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47364 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:56] Connection from 192.168.137.101:47367 - POST / HTTP/1.1
+[HTTP] [2026-02-19 13:22:56] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[SSH] [2026-02-19 13:22:56] Connection from 192.168.137.101:47370
+[HTTP] [2026-02-19 13:22:57] Connection from 192.168.137.101:47368 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-19 13:22:57] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[SSH] [2026-02-19 13:22:57] Client banner from 192.168.137.101: SSH-2.0-Nmap-SSH2-Hostkey
+[HTTP] [2026-02-19 13:22:57] Connection from 192.168.137.101:47372 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-19 13:22:57] Connection from 192.168.137.101:47373 - GET / HTTP/1.1
+[SSH] [2026-02-19 13:22:57] SSH negotiation attempt from 192.168.137.101
+[HTTP] [2026-02-19 13:22:57] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:57] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:57] Connection from 192.168.137.101:47374 - OPTIONS / HTTP/1.1
+[SSH] [2026-02-19 13:22:57] Connection from 192.168.137.101:47375
+[HTTP] [2026-02-19 13:22:57] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[SSH] [2026-02-19 13:22:57] Client banner from 192.168.137.101: SSH-2.0-Nmap-SSH2-Hostkey
+[HTTP] [2026-02-19 13:22:57] Connection from 192.168.137.101:47376 - GET / HTTP/1.1
+[SSH] [2026-02-19 13:22:57] SSH negotiation attempt from 192.168.137.101
+[HTTP] [2026-02-19 13:22:57] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:22:57] Connection from 192.168.137.101:47377 - OPTIONS / HTTP/1.1
+[HTTP] [2026-02-19 13:22:57] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[FTP] [2026-02-19 13:23:09] Connection from 192.168.137.101:47386
+[HTTP] [2026-02-19 13:23:09] Connection from 192.168.137.101:47385 - GET / HTTP/1.0
+[FTP] [2026-02-19 13:23:09] Command from 192.168.137.101: AUTH TLS
+[FTP] [2026-02-19 13:23:09] Command from 192.168.137.101: QUIT
+[HTTP] [2026-02-19 13:23:09] Connection from 192.168.137.101:47388 - GET / HTTP/1.1
+[FTP] [2026-02-19 13:23:09] Connection from 192.168.137.101:47390
+[FTP] [2026-02-19 13:23:09] Error in command loop: [WinError 10054] An existing connection was forcibly closed by the remote host
+[FTP] [2026-02-19 13:23:09] Connection from 192.168.137.101:47391
+[FTP] [2026-02-19 13:23:09] Error in command loop: [WinError 10053] An established connection was aborted by the software in your host machine
+[FTP] [2026-02-19 13:23:09] Connection from 192.168.137.101:47392
+[FTP] [2026-02-19 13:23:09] Command from 192.168.137.101: AUTH TLS
+[FTP] [2026-02-19 13:23:09] Command from 192.168.137.101: QUIT
+[FTP] [2026-02-19 13:23:09] Connection from 192.168.137.101:47393
+[FTP] [2026-02-19 13:23:09] Connection from 192.168.137.101:47394
+[FTP] [2026-02-19 13:23:09] Error in command loop: [WinError 10054] An existing connection was forcibly closed by the remote host
+[HTTP] [2026-02-19 13:31:37] Connection from 192.168.137.101:64510 - GET / HTTP/1.1
+[HTTP] [2026-02-19 13:31:37] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:31:37] Connection from 192.168.137.101:22537 - GET /styles.css HTTP/1.1
+[HTTP] [2026-02-19 13:31:37] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:31:37] Connection from 192.168.137.101:13420 - GET /script.js HTTP/1.1
+[HTTP] [2026-02-19 13:31:37] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:31:37] Connection from 192.168.137.101:5133 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-19 13:31:37] [Command Injection] Attacker IP: 192.168.137.101 - Suspicious payload detected
+[HTTP] [2026-02-19 13:32:48] Connection from 192.168.137.102:37854 - GET / HTTP/1.1
+[HTTP] [2026-02-19 13:32:48] [Command Injection] Attacker IP: 192.168.137.102 - Suspicious payload detected
+[HTTP] [2026-02-19 13:32:48] Connection from 192.168.137.102:37856 - GET /styles.css HTTP/1.1
+[HTTP] [2026-02-19 13:32:48] [Command Injection] Attacker IP: 192.168.137.102 - Suspicious payload detected
+[HTTP] [2026-02-19 13:32:48] Connection from 192.168.137.102:37868 - GET /script.js HTTP/1.1
+[HTTP] [2026-02-19 13:32:48] [Command Injection] Attacker IP: 192.168.137.102 - Suspicious payload detected
+[HTTP] [2026-02-19 13:32:49] Connection from 192.168.137.102:41746 - GET /favicon.ico HTTP/1.1
+[HTTP] [2026-02-19 13:32:49] [Command Injection] Attacker IP: 192.168.137.102 - Suspicious payload detected
+[HTTP] [2026-02-19 13:33:07] Stopped
+[HTTP] [2026-02-19 13:33:07] Stopped
+[1:33:07 PM] [SYSTEM] Stopped HTTP service
+[FTP] [2026-02-19 13:33:19] Stopped
+[FTP] [2026-02-19 13:33:19] Stopped
+[1:33:19 PM] [SYSTEM] Stopped FTP service
+[SSH] [2026-02-19 13:33:20] Stopped
+[SSH] [2026-02-19 13:33:20] Stopped
+[1:33:20 PM] [SYSTEM] Stopped SSH service
+[1:33:29 PM] [SYSTEM] Connected to Network Monitor System
+[HTTP] [2026-02-19 13:33:33] Started on port 8080
+[1:33:33 PM] [SYSTEM] Started HTTP on port 8080
+[FTP] [2026-02-19 13:33:35] Started on port 2121
+[1:33:35 PM] [SYSTEM] Started FTP on port 2121
+[HTTP] [2026-02-19 13:33:45] Connection from 192.168.137.102:34778 - GET / HTTP/1.1
+[HTTP] [2026-02-19 13:33:45] [Command Injection] Attacker IP: 192.168.137.102 - Suspicious payload detected
+[HTTP] [2026-02-19 13:33:55] Connection from 192.168.137.102:43858 - POST /login HTTP/1.1
+[HTTP] [2026-02-19 13:33:55] [Command Injection] Attacker IP: 192.168.137.102 - Username: kerjtkejr, Password: djgij
+[HTTP] [2026-02-19 13:35:22] Connection from 192.168.137.102:45726 - POST /login HTTP/1.1
+[HTTP] [2026-02-19 13:35:22] [Command Injection] Attacker IP: 192.168.137.102 - Username: OR ' 1=1, Password: OR ' 1=1
+[HTTP] [2026-02-19 13:35:55] Connection from 192.168.137.102:36850 - POST /register HTTP/1.1
+[HTTP] [2026-02-19 13:35:55] [Command Injection] Attacker IP: 192.168.137.102 - Username: dfkljs, Password: fgjkdl
+[HTTP] [2026-02-19 13:37:04] Connection from 192.168.137.102:52104 - GET /login HTTP/1.1
+[HTTP] [2026-02-19 13:37:04] [Command Injection] Attacker IP: 192.168.137.102 - Suspicious payload detected
+[HTTP] [2026-02-19 13:37:07] Stopped
+[HTTP] [2026-02-19 13:37:07] Stopped
+[1:37:07 PM] [SYSTEM] Stopped HTTP service
+[FTP] [2026-02-19 13:37:09] Stopped
+[FTP] [2026-02-19 13:37:09] Stopped
+[1:37:09 PM] [SYSTEM] Stopped FTP service
+[1:37:18 PM] [SYSTEM] Connected to Network Monitor System
+[1:37:21 PM] [SYSTEM] Connected to Network Monitor System
+[1:37:38 PM] [SYSTEM] Connected to Network Monitor System
