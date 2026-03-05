@@ -6,17 +6,13 @@ import os
 import secrets
 import socket
 import threading
-from functools import wraps
 
 from flask import (
     Flask,
     jsonify,
-    redirect,
     render_template,
     request,
     send_from_directory,
-    session,
-    url_for,
 )
 from flask_socketio import SocketIO
 from werkzeug.utils import secure_filename
@@ -80,8 +76,6 @@ SSH_BANNERS = {
     "freesshd": "SSH-2.0-freeSSHd",
 }
 
-AUTH_CREDENTIALS = {"username": None, "password": None}
-
 honeypots = {
     "http": {"instance": None, "thread": None, "running": False, "port": 8080, "banner_id": "apache_2441"},
     "ftp": {"instance": None, "thread": None, "running": False, "port": 21, "banner_id": "vsftpd_234"},
@@ -91,39 +85,8 @@ honeypots = {
 stats = {"http": 0, "ftp": 0, "ssh": 0, "total": 0}
 
 
-def setup_auth_credentials() -> None:
-    print("\nSet up authentication credentials:")
-    while True:
-        username = input("Enter username: ").strip()
-        if username:
-            break
-        print("Username cannot be empty.")
-
-    while True:
-        password = getpass.getpass("Enter password: ").strip()
-        if password:
-            break
-        print("Password cannot be empty.")
-
-    AUTH_CREDENTIALS["username"] = username
-    AUTH_CREDENTIALS["password"] = password
-    print("Dashboard credentials initialized. Login required in browser.\n")
-
-
-def is_authenticated() -> bool:
-    return bool(session.get("authenticated"))
-
-
 def login_required(func):
-    @wraps(func)
-    def wrapper(*args, **kwargs):
-        if not is_authenticated():
-            if request.path.startswith("/api/"):
-                return jsonify({"error": "Authentication required"}), 401
-            return redirect(url_for("login"))
-        return func(*args, **kwargs)
-
-    return wrapper
+    return func
 
 
 def log_callback(message: str) -> None:
@@ -163,30 +126,7 @@ def can_bind_port(port: int) -> bool:
 
 @app.route("/")
 def root():
-    if is_authenticated():
-        return redirect(url_for("dashboard"))
-    return redirect(url_for("login"))
-
-
-@app.route("/login", methods=["GET", "POST"])
-def login():
-    error = None
-    if request.method == "POST":
-        username = request.form.get("username", "").strip()
-        password = request.form.get("password", "").strip()
-        if username == AUTH_CREDENTIALS["username"] and password == AUTH_CREDENTIALS["password"]:
-            session["authenticated"] = True
-            session["username"] = username
-            return redirect(url_for("dashboard"))
-        error = "Invalid credentials"
-    return render_template("login.html", error=error)
-
-
-@app.route("/logout")
-@login_required
-def logout():
-    session.clear()
-    return redirect(url_for("login"))
+    return render_template("index.html")
 
 
 @app.route("/dashboard")
@@ -375,5 +315,4 @@ def list_uploads():
 
 
 if __name__ == "__main__":
-    setup_auth_credentials()
     socketio.run(app, host="0.0.0.0", port=5000, debug=True)
