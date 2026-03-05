@@ -1,291 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Honeypot Monitor</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Freak-Pot Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
 </head>
+<body class="dashboard-page">
+    <canvas id="matrix-canvas"></canvas>
 
-<body>
     <div class="app-wrapper">
-        <!-- Sidebar -->
         <aside class="sidebar">
             <div class="sidebar-header">
                 <i data-feather="shield" class="sidebar-icon"></i>
-                <h2>Security</h2>
+                <h2>FREAK-POT</h2>
             </div>
-            
+
             <nav class="sidebar-nav">
-                <button class="nav-item active" data-tab="services">
-                    <i data-feather="activity"></i>
-                    <span>Services</span>
-                </button>
-                <button class="nav-item" data-tab="statistics">
-                    <i data-feather="bar-chart-2"></i>
-                    <span>Statistics</span>
-                </button>
-                <button class="nav-item" data-tab="logs">
-                    <i data-feather="file-text"></i>
-                    <span>Activity Log</span>
-                </button>
+                <button class="nav-item active" data-tab="services"><i data-feather="activity"></i><span>Services</span></button>
+                <button class="nav-item" data-tab="statistics"><i data-feather="bar-chart-2"></i><span>Statistics</span></button>
+                <button class="nav-item" data-tab="logs"><i data-feather="terminal"></i><span>Live Logs</span></button>
             </nav>
 
             <div class="sidebar-footer">
-                <button class="btn btn-global-start" onclick="startAll()">
-                    <i data-feather="play"></i> Start All
-                </button>
-                <button class="btn btn-global-stop" onclick="stopAll()">
-                    <i data-feather="square"></i> Stop All
-                </button>
+                <button class="btn btn-global-start" onclick="startAll()"><i data-feather="play"></i>Start All</button>
+                <button class="btn btn-global-stop" onclick="stopAll()"><i data-feather="square"></i>Stop All</button>
             </div>
         </aside>
 
-        <!-- Main Container -->
         <div class="main-container">
-            <!-- Header -->
             <header class="app-header">
                 <div class="header-content">
-                    <h1>Network Honeypot Monitor</h1>
+                    <h1>Honeypot Command Console</h1>
                     <div class="header-stats">
-                        <div class="stat-chip">
-                            <span class="stat-label">Connections:</span>
-                            <span class="stat-value" id="header-total">0</span>
-                        </div>
-                        <div class="stat-chip">
-                            <span class="stat-label">Active:</span>
-                            <span class="stat-value" id="header-active">0</span>
-                        </div>
+                        <div class="stat-chip"><span class="stat-label">Connections</span><span class="stat-value" id="header-total">0</span></div>
+                        <div class="stat-chip"><span class="stat-label">Active</span><span class="stat-value" id="header-active">0</span></div>
+                        <a href="/logout" class="btn btn-logout">Logout</a>
                     </div>
                 </div>
             </header>
 
-            <!-- Content Area -->
             <main class="content-area">
-
-                <!-- Services Tab -->
                 <section class="tab-content active" id="tab-services">
                     <div class="section-header">
-                        <h3>Active Services</h3>
-                        <p class="section-desc">Configure and manage honeypot services</p>
+                        <h3>Service Configuration</h3>
+                        <p class="section-desc">Configure banners, upload bait files, and launch honeypot listeners.</p>
                     </div>
 
                     <div class="services-grid">
-                        <!-- HTTP Service -->
                         <div class="service-card">
                             <div class="service-header">
-                                <div class="service-title">
-                                    <i data-feather="globe" class="service-icon"></i>
-                                    <h4>HTTP Service</h4>
-                                </div>
-                                <div class="service-status">
-                                    <span class="dot red" id="dot-http"></span>
-                                    <span class="status-badge" id="status-text-http">Offline</span>
-                                </div>
+                                <div class="service-title"><i data-feather="globe"></i><h4>HTTP Honeypot</h4></div>
+                                <div class="service-status"><span class="dot red" id="dot-http"></span><span class="status-badge" id="status-text-http">Offline</span></div>
                             </div>
 
                             <div class="service-config">
-                                <div class="config-item">
-                                    <label>Port</label>
-                                    <input type="number" id="port-http" value="8080" class="config-input">
-                                </div>
-                                <div class="config-item">
-                                    <label>Version</label>
-                                    <div class="version-box">Apache/2.4.29 + PHP/7.2.24</div>
-                                </div>
+                                <div class="config-item"><label>Port</label><input type="number" id="port-http" value="8080" class="config-input"></div>
+                                <div class="config-item"><label>Vulnerable Banner</label><select id="banner-http" class="config-input"></select></div>
+                                <div class="config-item"><label>Custom Banner (optional)</label><input type="text" id="custom-banner-http" class="config-input" placeholder="Apache/2.2.15 (CentOS)"></div>
                                 <div class="config-item full-width">
-                                    <label>HTML Page</label>
+                                    <label>Custom Login HTML</label>
                                     <div class="file-upload-group">
-                                        <span class="file-label" id="file-label-http">Default page</span>
-                                        <input type="file" id="file-input-http" accept=".html" style="display: none;">
-                                        <button class="btn btn-secondary" onclick="document.getElementById('file-input-http').click()">
-                                            <i data-feather="upload"></i> Browse
-                                        </button>
+                                        <span class="file-label" id="file-label-http">Default phishing template</span>
+                                        <input type="file" id="file-input-http" accept=".html" style="display:none;">
+                                        <button class="btn btn-secondary" onclick="document.getElementById('file-input-http').click()"><i data-feather="upload"></i>Upload</button>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="service-actions">
-                                <button class="btn btn-start" id="btn-http" onclick="toggleService('http')">
-                                    <i data-feather="play"></i> Start
-                                </button>
-                                <button class="btn btn-stop" onclick="stopServiceReq('http')">
-                                    <i data-feather="square"></i> Stop
-                                </button>
+                                <button class="btn btn-start" id="btn-http" onclick="toggleService('http')"><i data-feather="play"></i>Start</button>
+                                <button class="btn btn-stop" onclick="stopServiceReq('http')"><i data-feather="square"></i>Stop</button>
                             </div>
                         </div>
 
-                        <!-- FTP Service -->
                         <div class="service-card">
                             <div class="service-header">
-                                <div class="service-title">
-                                    <i data-feather="folder" class="service-icon"></i>
-                                    <h4>FTP Service</h4>
-                                </div>
-                                <div class="service-status">
-                                    <span class="dot red" id="dot-ftp"></span>
-                                    <span class="status-badge" id="status-text-ftp">Offline</span>
-                                </div>
+                                <div class="service-title"><i data-feather="folder"></i><h4>FTP Honeypot</h4></div>
+                                <div class="service-status"><span class="dot red" id="dot-ftp"></span><span class="status-badge" id="status-text-ftp">Offline</span></div>
                             </div>
 
                             <div class="service-config">
-                                <div class="config-item">
-                                    <label>Port</label>
-                                    <input type="number" id="port-ftp" value="2121" class="config-input">
-                                </div>
-                                <div class="config-item">
-                                    <label>Version</label>
-                                    <div class="version-box">ProFTPD 1.3.5 (Anonymous)</div>
-                                </div>
+                                <div class="config-item"><label>Port</label><input type="number" id="port-ftp" value="2121" class="config-input"></div>
+                                <div class="config-item"><label>Vulnerable Banner</label><select id="banner-ftp" class="config-input"></select></div>
+                                <div class="config-item"><label>Custom Banner (optional)</label><input type="text" id="custom-banner-ftp" class="config-input" placeholder="ProFTPD 1.3.3c"></div>
                                 <div class="config-item full-width">
-                                    <label>Shared Files</label>
+                                    <label>Bait Files</label>
                                     <div class="file-upload-group">
-                                        <span class="file-label" id="file-label-ftp">Anonymous access enabled</span>
-                                        <input type="file" id="file-input-ftp" accept="*" multiple style="display: none;">
-                                        <button class="btn btn-secondary" onclick="document.getElementById('file-input-ftp').click()">
-                                            <i data-feather="upload"></i> Upload
-                                        </button>
+                                        <span class="file-label" id="file-label-ftp">No files uploaded</span>
+                                        <input type="file" id="file-input-ftp" multiple style="display:none;">
+                                        <button class="btn btn-secondary" onclick="document.getElementById('file-input-ftp').click()"><i data-feather="upload"></i>Upload</button>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="service-actions">
-                                <button class="btn btn-start" id="btn-ftp" onclick="toggleService('ftp')">
-                                    <i data-feather="play"></i> Start
-                                </button>
-                                <button class="btn btn-stop" onclick="stopServiceReq('ftp')">
-                                    <i data-feather="square"></i> Stop
-                                </button>
+                                <button class="btn btn-start" id="btn-ftp" onclick="toggleService('ftp')"><i data-feather="play"></i>Start</button>
+                                <button class="btn btn-stop" onclick="stopServiceReq('ftp')"><i data-feather="square"></i>Stop</button>
                             </div>
                         </div>
 
-                        <!-- SSH Service -->
                         <div class="service-card">
                             <div class="service-header">
-                                <div class="service-title">
-                                    <i data-feather="terminal" class="service-icon"></i>
-                                    <h4>SSH Service</h4>
-                                </div>
-                                <div class="service-status">
-                                    <span class="dot red" id="dot-ssh"></span>
-                                    <span class="status-badge" id="status-text-ssh">Offline</span>
-                                </div>
+                                <div class="service-title"><i data-feather="terminal"></i><h4>SSH Honeypot</h4></div>
+                                <div class="service-status"><span class="dot red" id="dot-ssh"></span><span class="status-badge" id="status-text-ssh">Offline</span></div>
                             </div>
 
                             <div class="service-config">
-                                <div class="config-item">
-                                    <label>Port</label>
-                                    <input type="number" id="port-ssh" value="2222" class="config-input">
-                                </div>
-                                <div class="config-item">
-                                    <label>Version</label>
-                                    <div class="version-box">OpenSSH 7.4</div>
-                                </div>
+                                <div class="config-item"><label>Port</label><input type="number" id="port-ssh" value="2222" class="config-input"></div>
+                                <div class="config-item"><label>Vulnerable Banner</label><select id="banner-ssh" class="config-input"></select></div>
+                                <div class="config-item"><label>Custom Banner (optional)</label><input type="text" id="custom-banner-ssh" class="config-input" placeholder="SSH-2.0-OpenSSH_5.3"></div>
+                                <div class="config-item full-width"><div class="version-box">Shell reads files from uploaded bait directory.</div></div>
                             </div>
 
                             <div class="service-actions">
-                                <button class="btn btn-start" id="btn-ssh" onclick="toggleService('ssh')">
-                                    <i data-feather="play"></i> Start
-                                </button>
-                                <button class="btn btn-stop" onclick="stopServiceReq('ssh')">
-                                    <i data-feather="square"></i> Stop
-                                </button>
+                                <button class="btn btn-start" id="btn-ssh" onclick="toggleService('ssh')"><i data-feather="play"></i>Start</button>
+                                <button class="btn btn-stop" onclick="stopServiceReq('ssh')"><i data-feather="square"></i>Stop</button>
                             </div>
                         </div>
                     </div>
+
+                    <div class="section-header"><h3>Uploaded Bait Files</h3></div>
+                    <div id="uploads-list" class="uploads-list"></div>
                 </section>
 
-                <!-- Statistics Tab -->
                 <section class="tab-content" id="tab-statistics">
-                    <div class="section-header">
-                        <h3>Connection Statistics</h3>
-                        <p class="section-desc">Real-time traffic analysis</p>
-                    </div>
-
+                    <div class="section-header"><h3>Attack Statistics</h3><p class="section-desc">Real-time connection and attacker intelligence.</p></div>
                     <div class="stats-container">
-                        <div class="stat-card">
-                            <div class="stat-header">Total Connections</div>
-                            <div class="stat-big-number" id="stat-total">0</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-header">HTTP Requests</div>
-                            <div class="stat-big-number" id="stat-http">0</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-header">FTP Connections</div>
-                            <div class="stat-big-number" id="stat-ftp">0</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-header">SSH Attempts</div>
-                            <div class="stat-big-number" id="stat-ssh">0</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-header">Unique Attackers</div>
-                            <div class="stat-big-number" id="stat-attackers">0</div>
-                        </div>
-                    </div>
-
-                    <div class="section-header" style="margin-top: 30px;">
-                        <h3>Attacker IP Addresses</h3>
-                        <p class="section-desc">Identified attack sources</p>
+                        <div class="stat-card"><div class="stat-header">Total</div><div class="stat-big-number" id="stat-total">0</div></div>
+                        <div class="stat-card"><div class="stat-header">HTTP</div><div class="stat-big-number" id="stat-http">0</div></div>
+                        <div class="stat-card"><div class="stat-header">FTP</div><div class="stat-big-number" id="stat-ftp">0</div></div>
+                        <div class="stat-card"><div class="stat-header">SSH</div><div class="stat-big-number" id="stat-ssh">0</div></div>
+                        <div class="stat-card"><div class="stat-header">Unique Attackers</div><div class="stat-big-number" id="stat-attackers">0</div></div>
                     </div>
 
                     <div class="attackers-list">
                         <table class="attackers-table">
-                            <thead>
-                                <tr>
-                                    <th>IP Address</th>
-                                    <th>Connection Count</th>
-                                    <th>Attack Patterns</th>
-                                </tr>
-                            </thead>
-                            <tbody id="attackers-table-body">
-                                <tr><td colspan="3" style="text-align: center; color: #999;">No attacks detected yet</td></tr>
-                            </tbody>
+                            <thead><tr><th>IP Address</th><th>Count</th><th>Attack Markers</th></tr></thead>
+                            <tbody id="attackers-table-body"><tr><td colspan="3" style="text-align:center;color:#88aa88;">No attackers recorded yet</td></tr></tbody>
                         </table>
                     </div>
                 </section>
 
-                <!-- Logs Tab -->
                 <section class="tab-content" id="tab-logs">
                     <div class="section-header">
                         <div class="log-header-top">
-                            <div>
-                                <h3>Activity Log</h3>
-                                <p class="section-desc">Real-time system events and attacks</p>
-                            </div>
-                            <button class="btn btn-secondary" onclick="clearLogs()">
-                                <i data-feather="trash-2"></i> Clear
-                            </button>
+                            <div><h3>Ultra-Verbose Logs</h3><p class="section-desc">Socket events, credentials, commands, scanner fingerprints, and file access.</p></div>
+                            <button class="btn btn-secondary" onclick="clearLogs()"><i data-feather="trash-2"></i>Clear</button>
                         </div>
                     </div>
-
-                    <div id="log-terminal" class="log-window">
-                        <div class="log-entry system">System ready.</div>
-                    </div>
+                    <div id="log-terminal" class="log-window"><div class="log-entry system">Dashboard ready. Awaiting traffic...</div></div>
                 </section>
-
             </main>
         </div>
     </div>
 
     <script src="{{ url_for('static', filename='script.js') }}"></script>
     <script>
-        // Tab navigation
-        document.querySelectorAll('.nav-item').forEach(item => {
+        document.querySelectorAll('.nav-item').forEach((item) => {
             item.addEventListener('click', () => {
                 const tab = item.dataset.tab;
-                document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
-                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                document.querySelectorAll('.nav-item').forEach((n) => n.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach((c) => c.classList.remove('active'));
                 item.classList.add('active');
                 document.getElementById(`tab-${tab}`).classList.add('active');
             });
         });
     </script>
 </body>
-
 </html>

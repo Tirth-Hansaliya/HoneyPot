@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freak-Pot Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="login-page">
+    <canvas id="matrix-canvas"></canvas>
+    <div class="login-shell">
+        <div class="login-card">
+            <h1>FREAK-POT</h1>
+            <p>Secure Dashboard Authentication</p>
+            {% if error %}
+            <div class="login-error">{{ error }}</div>
+            {% endif %}
+            <form method="POST" action="/login" autocomplete="off">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" required>
+
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" required>
+
+                <button type="submit" class="btn btn-start">Access Dashboard</button>
+            </form>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

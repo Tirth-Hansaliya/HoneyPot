@@ -1,362 +1,246 @@
+import os
+import re
 import socket
 import threading
 from datetime import datetime
-import re
 from urllib.parse import parse_qs
 
+
 class HTTPHoneypot:
-    def __init__(self, port=8080, log_callback=None, html_file=None):
+    def __init__(self, port=8080, log_callback=None, html_file=None, banner=None):
         self.port = port
         self.running = False
         self.server_socket = None
         self.log_callback = log_callback
         self.html_file = html_file
+        self.banner = banner or {
+            "server": "Apache/2.4.41 (Ubuntu)",
+            "x_powered_by": "PHP/7.4.3",
+        }
         self.html_content = self.load_html()
-        
-        # SQL injection patterns
+
         self.sql_patterns = [
-            r"(\bunion\b.*\bselect\b|\bor\b.*1\s*=\s*1|;\s*drop\s+|;\s*delete\s+|UNION\s+SELECT)",
-            r"(\bxp_\w+|sp_\w+|exec\(|execute\()",
-            r"(--|#|/\\*|\\*/)",
-            r"(\bcaast\(|\bconvert\()",
+            r"(\bunion\b.*\bselect\b|\bor\b\s+1\s*=\s*1|\bwaitfor\s+delay\b|\bdrop\s+table\b)",
+            r"(\bxp_cmdshell\b|\bexec\b\s*\(|\bbenchmark\b\s*\()",
+            r"(--|#|/\*|\*/)",
         ]
-        
-        # XSS patterns
         self.xss_patterns = [
-            r"<script[^>]*>.*?</script>",
+            r"<script[^>]*>",
             r"javascript:",
             r"onerror\s*=",
-            r"onclick\s*=",
+            r"onload\s*=",
         ]
-        
+        self.scanners = {
+            "nikto": "Nikto",
+            "sqlmap": "SQLMap",
+            "nmap": "Nmap",
+            "masscan": "Masscan",
+            "burpsuite": "Burp Suite",
+            "metasploit": "Metasploit",
+            "acunetix": "Acunetix",
+            "wpscan": "WPScan",
+            "gobuster": "Gobuster",
+            "dirbuster": "DirBuster",
+            "curl": "cURL",
+            "python-requests": "Python Requests",
+        }
+
     def log(self, message):
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         log_entry = f"[HTTP] [{timestamp}] {message}"
         if self.log_callback:
             self.log_callback(log_entry)
         print(log_entry)
-    
-    def detect_attack_type(self, data):
-        """Detect attack type in the request data"""
-        data_lower = data.lower()
-        
-        # # SQL Injection detection
-        # for pattern in self.sql_patterns:
-        #     if re.search(pattern, data, re.IGNORECASE):
-        #         return "SQL Injection"
-        
-        # XSS detection
+
+    def load_html(self):
+        if self.html_file and os.path.exists(self.html_file):
+            try:
+                with open(self.html_file, "r", encoding="utf-8") as handle:
+                    return handle.read()
+            except Exception as exc:
+                self.log(f"Failed to load custom HTML file ({self.html_file}): {exc}")
+
+        return """<!DOCTYPE html>
+<html lang=\"en\"><head><meta charset=\"UTF-8\"><title>Admin Login</title></head>
+<body style=\"font-family:Arial;background:#111;color:#ddd;padding:40px\">
+<h1>System Administration Portal</h1>
+<p>Restricted area. Authentication required.</p>
+<form method=\"POST\" action=\"/login\">
+  <label>User:</label><input type=\"text\" name=\"username\" /><br /><br />
+  <label>Password:</label><input type=\"password\" name=\"password\" /><br /><br />
+  <button type=\"submit\">Sign In</button>
+</form>
+</body></html>"""
+
+    def parse_request(self, data):
+        lines = data.split("\r\n")
+        request_line = lines[0] if lines else ""
+        method, path, version = "GET", "/", "HTTP/1.1"
+        if request_line:
+            parts = request_line.split()
+            if len(parts) >= 3:
+                method, path, version = parts[0], parts[1], parts[2]
+
+        headers = {}
+        body = ""
+        header_done = False
+        for line in lines[1:]:
+            if not header_done and line == "":
+                header_done = True
+                continue
+            if header_done:
+                body += line
+                continue
+            if ":" in line:
+                key, value = line.split(":", 1)
+                headers[key.strip().lower()] = value.strip()
+
+        return method, path, version, headers, body
+
+    def detect_attack_type(self, payload):
+        payload_lower = payload.lower()
+
+        for pattern in self.sql_patterns:
+            if re.search(pattern, payload, re.IGNORECASE):
+                return "SQL Injection"
         for pattern in self.xss_patterns:
-            if re.search(pattern, data, re.IGNORECASE):
+            if re.search(pattern, payload, re.IGNORECASE):
                 return "XSS Attack"
-        
-        # Command Injection
-        if re.search(r"[;&|`$(){}[\]\\]", data):
-            if re.search(r"(cat|ls|rm|wget|curl|bash|sh|nc|ncat)", data_lower):
-                return "Command Injection"
-        
-        # Path Traversal
-        if re.search(r"\.\.[\\/]|\.\.%2f|\.\.%5c|/etc/|%2e%2e", data, re.IGNORECASE):
+        if re.search(r"\.\.[\\/]|%2e%2e|/etc/passwd|\\windows\\win.ini", payload, re.IGNORECASE):
             return "Path Traversal"
-        
-        # Brute Force (many common weak passwords)
-        weak_passwords = ["password", "123456", "admin", "12345", "123456789", "qwerty", "abc123", "password123"]
-        for weak_pass in weak_passwords:
-            if weak_pass in data_lower:
-                return "Brute Force Attempt"
-        
-        # Default suspicious
-        if re.search(r"username|password", data, re.IGNORECASE):
-            return "Login Attempt"
-        
+        if re.search(r"(;|\|\||&&|`|\$\(|\$\{)", payload) and re.search(
+            r"(cat|ls|rm|wget|curl|nc|bash|sh|powershell|cmd\.exe)", payload_lower
+        ):
+            return "Command Injection"
+        if "username" in payload_lower or "password" in payload_lower:
+            return "Credential Harvest Attempt"
         return None
-    
-    def parse_post_data(self, request):
-        """Extract POST data from HTTP request"""
-        try:
-            parts = request.split("\r\n\r\n", 1)
-            if len(parts) > 1:
-                return parts[1]
-        except:
-            pass
-        return ""
 
-    def extract_credentials(self, request):
-        """Extract username/password safely from request body"""
-        body = self.parse_post_data(request)
-        if not body:
-            return "unknown", "unknown"
+    def detect_scanner(self, headers, payload):
+        user_agent = headers.get("user-agent", "").lower()
+        full = f"{user_agent} {payload.lower()}"
+        for marker, label in self.scanners.items():
+            if marker in full:
+                return label
+        return None
 
+    def extract_credentials(self, body):
         try:
-            parsed_data = parse_qs(body, keep_blank_values=True)
-            username = parsed_data.get("username", ["unknown"])[0]
-            password = parsed_data.get("password", ["unknown"])[0]
-            return username[:30], password[:30]
+            parsed = parse_qs(body, keep_blank_values=True)
         except Exception:
             return "unknown", "unknown"
-    
-    def load_html(self):
-        """Load HTML content from file or use default login page"""
-        if self.html_file:
-            try:
-                with open(self.html_file, 'r', encoding='utf-8') as f:
-                    return f.read()
-            except Exception as e:
-                self.log(f"Failed to load HTML file: {e}. Using default.")
-        
-        # Default login/register page
-        return """
-        <!DOCTYPE html>
-        <html>
-        <head>
-            <title>Secure Login - Admin Panel</title>
-            <style>
-                body { 
-                    font-family: Arial, sans-serif; 
-                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                    margin: 0;
-                    padding: 0;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    min-height: 100vh;
-                }
-                .container {
-                    background: white;
-                    border-radius: 10px;
-                    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-                    width: 100%;
-                    max-width: 450px;
-                    padding: 40px;
-                }
-                .header {
-                    text-align: center;
-                    margin-bottom: 30px;
-                    color: #333;
-                }
-                .header h1 {
-                    margin: 0;
-                    font-size: 28px;
-                    margin-bottom: 10px;
-                }
-                .header p {
-                    color: #666;
-                    margin: 0;
-                    font-size: 14px;
-                }
-                .tabs {
-                    display: flex;
-                    margin-bottom: 30px;
-                    border-bottom: 2px solid #eee;
-                }
-                .tab-btn {
-                    flex: 1;
-                    padding: 15px;
-                    background: none;
-                    border: none;
-                    cursor: pointer;
-                    font-size: 14px;
-                    font-weight: bold;
-                    color: #999;
-                    border-bottom: 3px solid transparent;
-                    transition: all 0.3s;
-                }
-                .tab-btn.active {
-                    color: #667eea;
-                    border-bottom-color: #667eea;
-                }
-                .tab-content {
-                    display: none;
-                }
-                .tab-content.active {
-                    display: block;
-                }
-                .form-group {
-                    margin-bottom: 20px;
-                }
-                label {
-                    display: block;
-                    margin-bottom: 8px;
-                    color: #333;
-                    font-weight: bold;
-                    font-size: 14px;
-                }
-                input {
-                    width: 100%;
-                    padding: 12px;
-                    border: 1px solid #ddd;
-                    border-radius: 5px;
-                    font-size: 14px;
-                    box-sizing: border-box;
-                    transition: border-color 0.3s;
-                }
-                input:focus {
-                    outline: none;
-                    border-color: #667eea;
-                }
-                .btn-submit {
-                    width: 100%;
-                    padding: 12px;
-                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                    color: white;
-                    border: none;
-                    border-radius: 5px;
-                    font-size: 16px;
-                    font-weight: bold;
-                    cursor: pointer;
-                    transition: transform 0.2s;
-                }
-                .btn-submit:hover {
-                    transform: translateY(-2px);
-                }
-                .forgot-link {
-                    text-align: right;
-                    margin-top: 10px;
-                }
-                .forgot-link a {
-                    color: #667eea;
-                    text-decoration: none;
-                    font-size: 12px;
-                }
-            </style>
-        </head>
-        <body>
-            <div class="container">
-                <div class="header">
-                    <h1>Secure Portal</h1>
-                    <p>Admin Access Required</p>
-                </div>
-                
-                <div class="tabs">
-                    <button class="tab-btn active" onclick="switchTab('login')">Login</button>
-                    <button class="tab-btn" onclick="switchTab('register')">Register</button>
-                </div>
 
-                <div id="login" class="tab-content active">
-                    <form method="POST" action="/login">
-                        <div class="form-group">
-                            <label>Username:</label>
-                            <input type="text" name="username" placeholder="Enter username" required>
-                        </div>
-                        <div class="form-group">
-                            <label>Password:</label>
-                            <input type="password" name="password" placeholder="Enter password" required>
-                        </div>
-                        <button type="submit" class="btn-submit">Login</button>
-                        <div class="forgot-link">
-                            <a href="#">Forgot password?</a>
-                        </div>
-                    </form>
-                </div>
+        username = (
+            parsed.get("username", parsed.get("user", parsed.get("login", ["unknown"])))[0]
+            if parsed
+            else "unknown"
+        )
+        password = (
+            parsed.get("password", parsed.get("pass", parsed.get("pwd", ["unknown"])))[0]
+            if parsed
+            else "unknown"
+        )
+        return str(username)[:120], str(password)[:120]
 
-                <div id="register" class="tab-content">
-                    <form method="POST" action="/register">
-                        <div class="form-group">
-                            <label>Email:</label>
-                            <input type="email" name="email" placeholder="Enter email" required>
-                        </div>
-                        <div class="form-group">
-                            <label>Username:</label>
-                            <input type="text" name="username" placeholder="Choose username" required>
-                        </div>
-                        <div class="form-group">
-                            <label>Password:</label>
-                            <input type="password" name="password" placeholder="Enter password" required>
-                        </div>
-                        <div class="form-group">
-                            <label>Confirm Password:</label>
-                            <input type="password" name="confirm_password" placeholder="Confirm password" required>
-                        </div>
-                        <button type="submit" class="btn-submit">Register</button>
-                    </form>
-                </div>
-            </div>
+    def build_response(self, method, path):
+        body = self.html_content
+        status = "200 OK"
+        if path.lower().startswith("/admin"):
+            status = "401 Unauthorized"
+        if path.lower().startswith("/wp-admin"):
+            status = "403 Forbidden"
+        if method == "OPTIONS":
+            body = ""
+        if method == "HEAD":
+            body = ""
 
-            <script>
-                function switchTab(tab) {
-                    document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
-                    document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
-                    document.getElementById(tab).classList.add('active');
-                    event.target.classList.add('active');
-                }
-            </script>
-        </body>
-        </html>
-        """
-    
+        headers = [
+            f"HTTP/1.1 {status}",
+            f"Date: {datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S GMT')}",
+            f"Server: {self.banner.get('server', 'Apache/2.4.41 (Ubuntu)')}",
+            f"X-Powered-By: {self.banner.get('x_powered_by', 'PHP/7.4.3')}",
+            "Content-Type: text/html; charset=UTF-8",
+            f"Content-Length: {len(body.encode('utf-8'))}",
+            "Connection: close",
+            "",
+            "",
+        ]
+        return "\r\n".join(headers).encode("utf-8", errors="ignore") + body.encode("utf-8", errors="ignore")
+
     def handle_client(self, client_socket, addr):
+        started_at = datetime.now()
+        client_ip, client_port = addr[0], addr[1]
+
         try:
-            client_ip = addr[0]
-            client_port = addr[1]
-            
-            # Receive the HTTP request
-            request = client_socket.recv(4096).decode('utf-8', errors='ignore')
-            if request:
-                request_line = request.split('\r\n')[0]
-                self.log(f"Connection from {client_ip}:{client_port} - {request_line}")
-                
-                # Parse the request
-                full_request = request
-                
-                # Detect attack type
-                attack_type = self.detect_attack_type(full_request)
-                
-                if attack_type:
-                    # Log with attack type
-                    if "username=" in full_request or "password=" in full_request:
-                        username, password = self.extract_credentials(full_request)
-                        self.log(f"[{attack_type}] Attacker IP: {client_ip} - Username: {username}, Password: {password}")
-                    else:
-                        self.log(f"[{attack_type}] Attacker IP: {client_ip} - Suspicious payload detected")
-                
-                # Send a fake HTTP response
-                response = (
-                    "HTTP/1.1 401 Unauthorized\r\n"
-                    "Server: Apache/2.4.29 (Ubuntu)\r\n"
-                    "X-Powered-By: PHP/7.2.24\r\n"
-                    "Content-Type: text/html; charset=UTF-8\r\n"
-                    "Connection: close\r\n\r\n"
-                ) + self.html_content
-                client_socket.send(response.encode('utf-8', errors='ignore'))
-        except Exception as e:
-            self.log(f"Error handling client {addr}: {e}")
+            raw = client_socket.recv(8192)
+            if not raw:
+                return
+
+            request_text = raw.decode("utf-8", errors="ignore")
+            method, path, version, headers, body = self.parse_request(request_text)
+
+            self.log(
+                f"Connection from {client_ip}:{client_port} | method={method} path={path} version={version} "
+                f"host={headers.get('host', 'unknown')} ua={headers.get('user-agent', 'unknown')} bytes={len(raw)}"
+            )
+
+            scanner = self.detect_scanner(headers, request_text)
+            if scanner:
+                self.log(f"[Scanner Detection] IP={client_ip} tool={scanner}")
+
+            attack_type = self.detect_attack_type(request_text)
+            if attack_type:
+                if attack_type == "Credential Harvest Attempt":
+                    username, password = self.extract_credentials(body)
+                    self.log(f"[{attack_type}] IP={client_ip} username={username} password={password}")
+                else:
+                    self.log(f"[{attack_type}] IP={client_ip} payload_snippet={request_text[:200]!r}")
+
+            if method in {"POST", "PUT", "PATCH"} and body:
+                self.log(f"Body capture from {client_ip}:{client_port}: {body[:300]}")
+
+            response = self.build_response(method, path)
+            client_socket.sendall(response)
+
+        except Exception as exc:
+            self.log(f"Error handling client {client_ip}:{client_port}: {exc}")
         finally:
+            duration = (datetime.now() - started_at).total_seconds()
+            self.log(f"Session closed for {client_ip}:{client_port} duration={duration:.3f}s")
             client_socket.close()
-    
+
     def start(self):
         try:
             self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             self.server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-            self.server_socket.bind(('0.0.0.0', self.port))
-            self.server_socket.listen(5)
+            self.server_socket.bind(("0.0.0.0", self.port))
+            self.server_socket.listen(50)
             self.server_socket.settimeout(1.0)
             self.running = True
-            self.log(f"Started on port {self.port}")
-            
+            self.log(
+                f"Started on port {self.port} with banner={self.banner.get('server', 'unknown')}"
+            )
+
             while self.running:
                 try:
                     client_socket, addr = self.server_socket.accept()
-                    client_thread = threading.Thread(
-                        target=self.handle_client, 
-                        args=(client_socket, addr)
-                    )
-                    client_thread.daemon = True
-                    client_thread.start()
+                    thread = threading.Thread(target=self.handle_client, args=(client_socket, addr), daemon=True)
+                    thread.start()
                 except socket.timeout:
                     continue
-                except Exception as e:
+                except Exception as exc:
                     if self.running:
-                        self.log(f"Error: {e}")
-        except Exception as e:
-            self.log(f"Failed to start: {e}")
+                        self.log(f"Accept loop error: {exc}")
+        except Exception as exc:
+            self.log(f"Failed to start: {exc}")
         finally:
             self.stop()
-    
+
     def stop(self):
         self.running = False
         if self.server_socket:
             try:
                 self.server_socket.close()
-            except:
+            except OSError:
                 pass
         self.log("Stopped")
