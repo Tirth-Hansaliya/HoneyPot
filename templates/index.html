@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freak-Pot Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+</head>
+<body class="dashboard-page">
+    <canvas id="matrix-canvas"></canvas>
+
+    <div class="app-wrapper">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <i data-feather="shield" class="sidebar-icon"></i>
+                <h2>FREAK-POT</h2>
+            </div>
+
+            <nav class="sidebar-nav">
+                <button class="nav-item active" data-tab="services">
+                    <i data-feather="activity"></i>
+                    <span>Services</span>
+                </button>
+                <button class="nav-item" data-tab="statistics">
+                    <i data-feather="bar-chart-2"></i>
+                    <span>Statistics</span>
+                </button>
+                <button class="nav-item" data-tab="logs">
+                    <i data-feather="terminal"></i>
+                    <span>Live Logs</span>
+                </button>
+            </nav>
+
+            <div class="sidebar-footer">
+                <button class="btn btn-global-start" onclick="startAll()">
+                    <i data-feather="play"></i>
+                    Start All
+                </button>
+                <button class="btn btn-global-stop" onclick="stopAll()">
+                    <i data-feather="square"></i>
+                    Stop All
+                </button>
+            </div>
+        </aside>
+
+        <div class="main-container">
+            <header class="app-header">
+                <div class="header-content">
+                    <h1>Honeypot Command Console</h1>
+                    <div class="header-stats">
+                        <div class="stat-chip">
+                            <span class="stat-label">Connections</span>
+                            <span class="stat-value" id="header-total">0</span>
+                        </div>
+                        <div class="stat-chip">
+                            <span class="stat-label">Active</span>
+                            <span class="stat-value" id="header-active">0</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main class="content-area">
+                <section class="tab-content active" id="tab-services">
+                    <div class="section-header">
+                        <h3>Service Configuration</h3>
+                        <p class="section-desc">Configure banners, upload bait files, and launch honeypot listeners.</p>
+                    </div>
+
+                    <div class="services-grid">
+                        <article class="service-card">
+                            <div class="service-header">
+                                <div class="service-title">
+                                    <i data-feather="globe"></i>
+                                    <h4>HTTP Honeypot</h4>
+                                </div>
+                                <div class="service-status">
+                                    <span class="dot red" id="dot-http"></span>
+                                    <span class="status-badge" id="status-text-http">Stopped</span>
+                                </div>
+                            </div>
+
+                            <div class="service-config">
+                                <div class="config-item">
+                                    <label for="port-http">Port</label>
+                                    <input type="number" id="port-http" value="8080" class="config-input">
+                                </div>
+                                <div class="config-item">
+                                    <label for="banner-http">Vulnerable Banner</label>
+                                    <select id="banner-http" class="config-input"></select>
+                                </div>
+                                <div class="config-item">
+                                    <label for="custom-banner-http">Custom Banner (optional)</label>
+                                    <input type="text" id="custom-banner-http" class="config-input" placeholder="Apache/2.2.15 (CentOS)">
+                                </div>
+                                <div class="config-item full-width">
+                                    <label>Custom Login HTML</label>
+                                    <div class="file-upload-group">
+                                        <span class="file-label" id="file-label-http">Default phishing template</span>
+                                        <input type="file" id="file-input-http" accept=".html" hidden>
+                                        <button class="btn btn-secondary" onclick="document.getElementById('file-input-http').click()">
+                                            <i data-feather="upload"></i>
+                                            Upload
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="service-actions">
+                                <button class="btn btn-start" id="btn-http" onclick="toggleService('http')">
+                                    <i data-feather="play"></i>
+                                    Start
+                                </button>
+                                <button class="btn btn-stop" id="btn-stop-http" onclick="stopServiceReq('http')">
+                                    <i data-feather="square"></i>
+                                    Stop
+                                </button>
+                            </div>
+                        </article>
+
+                        <article class="service-card">
+                            <div class="service-header">
+                                <div class="service-title">
+                                    <i data-feather="folder"></i>
+                                    <h4>FTP Honeypot</h4>
+                                </div>
+                                <div class="service-status">
+                                    <span class="dot red" id="dot-ftp"></span>
+                                    <span class="status-badge" id="status-text-ftp">Stopped</span>
+                                </div>
+                            </div>
+
+                            <div class="service-config">
+                                <div class="config-item">
+                                    <label for="port-ftp">Port</label>
+                                    <input type="number" id="port-ftp" value="21" class="config-input">
+                                </div>
+                                <div class="config-item">
+                                    <label for="banner-ftp">Vulnerable Banner</label>
+                                    <select id="banner-ftp" class="config-input"></select>
+                                </div>
+                                <div class="config-item">
+                                    <label for="custom-banner-ftp">Custom Banner (optional)</label>
+                                    <input type="text" id="custom-banner-ftp" class="config-input" placeholder="ProFTPD 1.3.3c">
+                                </div>
+                                <div class="config-item full-width">
+                                    <label>Bait Files</label>
+                                    <div class="file-upload-group">
+                                        <span class="file-label" id="file-label-ftp">No files uploaded</span>
+                                        <input type="file" id="file-input-ftp" multiple hidden>
+                                        <button class="btn btn-secondary" onclick="document.getElementById('file-input-ftp').click()">
+                                            <i data-feather="upload"></i>
+                                            Upload
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="service-actions">
+                                <button class="btn btn-start" id="btn-ftp" onclick="toggleService('ftp')">
+                                    <i data-feather="play"></i>
+                                    Start
+                                </button>
+                                <button class="btn btn-stop" id="btn-stop-ftp" onclick="stopServiceReq('ftp')">
+                                    <i data-feather="square"></i>
+                                    Stop
+                                </button>
+                            </div>
+                        </article>
+
+                        <article class="service-card">
+                            <div class="service-header">
+                                <div class="service-title">
+                                    <i data-feather="terminal"></i>
+                                    <h4>SSH Honeypot</h4>
+                                </div>
+                                <div class="service-status">
+                                    <span class="dot red" id="dot-ssh"></span>
+                                    <span class="status-badge" id="status-text-ssh">Stopped</span>
+                                </div>
+                            </div>
+
+                            <div class="service-config">
+                                <div class="config-item">
+                                    <label for="port-ssh">Port</label>
+                                    <input type="number" id="port-ssh" value="2222" class="config-input">
+                                </div>
+                                <div class="config-item">
+                                    <label for="banner-ssh">Vulnerable Banner</label>
+                                    <select id="banner-ssh" class="config-input"></select>
+                                </div>
+                                <div class="config-item">
+                                    <label for="custom-banner-ssh">Custom Banner (optional)</label>
+                                    <input type="text" id="custom-banner-ssh" class="config-input" placeholder="SSH-2.0-OpenSSH_5.3">
+                                </div>
+                                <div class="config-item full-width">
+                                    <div class="version-box">Shell reads files from uploaded bait directory.</div>
+                                </div>
+                            </div>
+
+                            <div class="service-actions">
+                                <button class="btn btn-start" id="btn-ssh" onclick="toggleService('ssh')">
+                                    <i data-feather="play"></i>
+                                    Start
+                                </button>
+                                <button class="btn btn-stop" id="btn-stop-ssh" onclick="stopServiceReq('ssh')">
+                                    <i data-feather="square"></i>
+                                    Stop
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="section-header">
+                        <h3>Uploaded Bait Files</h3>
+                    </div>
+                    <div id="uploads-list" class="uploads-list"></div>
+                </section>
+
+                <section class="tab-content" id="tab-statistics">
+                    <div class="section-header">
+                        <h3>Attack Statistics</h3>
+                        <p class="section-desc">Real-time connection and attacker intelligence.</p>
+                    </div>
+
+                    <div class="stats-container">
+                        <div class="stat-card"><div class="stat-header">Total</div><div class="stat-big-number" id="stat-total">0</div></div>
+                        <div class="stat-card"><div class="stat-header">HTTP</div><div class="stat-big-number" id="stat-http">0</div></div>
+                        <div class="stat-card"><div class="stat-header">FTP</div><div class="stat-big-number" id="stat-ftp">0</div></div>
+                        <div class="stat-card"><div class="stat-header">SSH</div><div class="stat-big-number" id="stat-ssh">0</div></div>
+                        <div class="stat-card"><div class="stat-header">Unique Attackers</div><div class="stat-big-number" id="stat-attackers">0</div></div>
+                    </div>
+
+                    <div class="attackers-list">
+                        <table class="attackers-table">
+                            <thead>
+                                <tr>
+                                    <th>IP Address</th>
+                                    <th>Count</th>
+                                    <th>Attack Markers</th>
+                                    <th>ML Threat Score</th>
+                                    <th>ML Brute Force</th>
+                                    <th>ML Intent</th>
+                                </tr>
+                            </thead>
+                            <tbody id="attackers-table-body">
+                                <tr><td colspan="6" style="text-align:center;color:#88aa88;">No attackers recorded yet</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section class="tab-content" id="tab-logs">
+                    <div class="section-header">
+                        <div class="log-header-top">
+                            <div>
+                                <h3>Ultra-Verbose Logs</h3>
+                                <p class="section-desc">Socket events, credentials, commands, scanner fingerprints, and file access.</p>
+                            </div>
+                            <button class="btn btn-secondary" onclick="clearLogs()">
+                                <i data-feather="trash-2"></i>
+                                Clear
+                            </button>
+                        </div>
+                    </div>
+                    <div id="log-terminal" class="log-window">
+                        <div class="log-entry system">Dashboard ready. Awaiting traffic...</div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
